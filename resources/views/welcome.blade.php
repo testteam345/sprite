@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                             <div class="slider-product-preview" data-swiper-parallax-x="-600">
-                                <img src="img/product-preview-12.png" alt="" />
+                                <img src="img/C1.png" alt="" />
                             </div>
                             <div class="empty-space col-xs-b80 col-sm-b0"></div>
                         </div>

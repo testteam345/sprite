@@ -630,9 +630,9 @@
                   <div class="popup-align">
                       <h3 class="h3 text-center">Log in</h3>
                       <div class="empty-space col-xs-b30"></div>
-                      <input class="simple-input" id="username" name="username" type="text" value="" placeholder="Your email" />
+                      <input class="simple-input" type="text" value="" placeholder="Your email" />
                       <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                      <input class="simple-input" id="pwd" name="pwd" type="password" value="" placeholder="Enter password" />
+                      <input class="simple-input" type="password" value="" placeholder="Enter password" />
                       <div class="empty-space col-xs-b10 col-sm-b20"></div>
                       <div class="row">
                           <div class="col-sm-6 col-xs-b10 col-sm-b0">
@@ -650,6 +650,35 @@
                               </a>  
                           </div>
                       </div>
+                      {{-- <div class="popup-or">
+                          <span>or</span>
+                      </div>
+                      <div class="row m5">
+                          <div class="col-sm-4 col-xs-b10 col-sm-b0">
+                              <a class="button facebook-button size-2 style-4 block" href="#">
+                                  <span class="button-wrapper">
+                                      <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt="" /></span>
+                                      <span class="text">facebook</span>
+                                  </span>
+                              </a>
+                          </div>
+                          <div class="col-sm-4 col-xs-b10 col-sm-b0">
+                              <a class="button twitter-button size-2 style-4 block" href="#">
+                                  <span class="button-wrapper">
+                                      <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt="" /></span>
+                                      <span class="text">twitter</span>
+                                  </span>
+                              </a>
+                          </div>
+                          <div class="col-sm-4">
+                              <a class="button google-button size-2 style-4 block" href="#">
+                                  <span class="button-wrapper">
+                                      <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt="" /></span>
+                                      <span class="text">google+</span>
+                                  </span>
+                              </a>
+                          </div>
+                      </div> --}}
                   </div>
                   <div class="button-close"></div>
               </div>
@@ -685,6 +714,35 @@
                               </a>  
                           </div>
                       </div>
+                      {{-- <div class="popup-or">
+                          <span>or</span>
+                      </div>
+                      <div class="row m5">
+                          <div class="col-sm-4 col-xs-b10 col-sm-b0">
+                              <a class="button facebook-button size-2 style-4 block" href="#">
+                                  <span class="button-wrapper">
+                                      <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt="" /></span>
+                                      <span class="text">facebook</span>
+                                  </span>
+                              </a>
+                          </div>
+                          <div class="col-sm-4 col-xs-b10 col-sm-b0">
+                              <a class="button twitter-button size-2 style-4 block" href="#">
+                                  <span class="button-wrapper">
+                                      <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt="" /></span>
+                                      <span class="text">twitter</span>
+                                  </span>
+                              </a>
+                          </div>
+                          <div class="col-sm-4">
+                              <a class="button google-button size-2 style-4 block" href="#">
+                                  <span class="button-wrapper">
+                                      <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt="" /></span>
+                                      <span class="text">google+</span>
+                                  </span>
+                              </a>
+                          </div>
+                      </div> --}}
                   </div>
                   <div class="button-close"></div>
               </div>
