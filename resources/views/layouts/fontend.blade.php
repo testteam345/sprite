@@ -56,8 +56,12 @@
                             <div class="entry"><b>email:</b> <a href="mailto:office@exzo.com">office@exzo.com</a></div>
                         </div>
                         <div class="col-md-7 col-md-text-right">
-                            <div class="entry"><a class="open-popup" data-rel="1"><b>login</b></a>&nbsp; or &nbsp;<a
+                            @if(Session::has('user_id'))
+                            <div class="entry"><b>{{ Session::get('name') }}</b></div>
+                            @else
+                                <div class="entry"><a class="open-popup" data-rel="1"><b>login</b></a>&nbsp; or &nbsp;<a
                                     class="open-popup" data-rel="2"><b>register</b></a></div>
+                            @endif
                             <div class="entry language">
                                 <div class="title"><b>en</b></div>
                                 <div class="language-toggle header-toggle-animation">
@@ -801,7 +805,7 @@
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
                 <input class="simple-input" type="password" value="" id="re_pwdc" id="re_pwdc"  placeholder="Enter password" />
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <input class="simple-input" type="password" value="" placeholder="Repeat password" />
+                <input class="simple-input" type="password" value="" id="re_pwdc" placeholder="Repeat password" />
                 <div class="empty-space col-xs-b10 col-sm-b20"></div>
                 <div class="row">
                     <div class="col-sm-7 col-xs-b10 col-sm-b0">
