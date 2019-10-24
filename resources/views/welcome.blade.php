@@ -17,7 +17,7 @@
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">KUY SPRITE</h1>
+                                            <h1 class="h1 light">KUY OAT RIDER</h1>
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
