@@ -679,9 +679,7 @@
 
         <div class="container">
             <div class="text-center">
-                <div class="simple-article size-3 grey uppercase col-xs-b5">new arrivals</div>
-                <div class="h2">something new for you</div>
-                <div class="title-underline center"><span></span></div>
+                <div class="simple-article size-3 grey uppercase col-xs-b5"></div>
             </div>
         </div>
 
@@ -690,15 +688,6 @@
         <div class="tabs-block">
             <div class="container">
                 <div class="tabulation-menu-wrapper text-center">
-                    <div class="tabulation-title simple-input">all</div>
-                    <ul class="tabulation-toggle">
-                        <li><a class="tab-menu active">all</a></li>
-                        <li><a class="tab-menu">sport</a></li>
-                        <li><a class="tab-menu">professionals</a></li>
-                        <li><a class="tab-menu">dj</a></li>
-                        <li><a class="tab-menu">relax</a></li>
-                        <li><a class="tab-menu">club</a></li>
-                    </ul>
                 </div>
             </div>
             <div class="empty-space col-xs-b30 col-sm-b60"></div>
