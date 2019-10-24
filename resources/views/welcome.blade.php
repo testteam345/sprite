@@ -335,7 +335,7 @@
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
                             <div class="preview">
-                                <img src="img/product-65.jpg" alt="">
+                                <img src="img/S1.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -354,8 +354,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">ERGO EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">sport beat rtx</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Sony Alpha a6400 Kit 16-50mm</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -371,15 +371,15 @@
                                     <div class="entry" style="color: #a4c131;"></div>
                                     <div class="entry" style="color: #68c131;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">$185.00</span></div>
+                                <div class="simple-article size-4"><span class="color">฿36,990</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
-                            <div class="product-label green">best price</div>
+                            <div class="product-label green"></div>
                             <div class="preview">
-                                <img src="img/product-62.jpg" alt="">
+                                <img src="img/Pana1.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -398,8 +398,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">MODERN EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">modern beat ht</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Panasonic Lumix DMC-GF10 Kit 12-32 mm</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -415,7 +415,7 @@
                                     <div class="entry" style="color: #50e3f0;"></div>
                                     <div class="entry" style="color: #eee;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">$155.00</span></div>
+                                <div class="simple-article size-4"><span class="color">฿18,991</span></div>
                             </div>
                         </div>
                     </div>
