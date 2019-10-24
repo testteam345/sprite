@@ -13,12 +13,15 @@
                                     <div class="cell-view page-height">
                                         <div class="col-xs-b40 col-sm-b80"></div>
                                         <div data-swiper-parallax-x="-600">
-                                            <div class="simple-article light transparent size-3">PRODUCT</div>
+                                            <div class="simple-article light transparent size-3">PROFESSIONAL EDITION</div>
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
+<<<<<<< HEAD
                                             <h1 class="h1 light"> Canon EOS 6D Mark II Kit 24-70mm f4 </h1>
-
+=======
+                                            <h1 class="h1 light">KUY OAT RIDER</h1>
+>>>>>>> origin/master
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
@@ -27,7 +30,7 @@
                                                 <ul>
                                                     <li>-26.2 megapixel full-frame CMOS image sensor</li>
                                                     <li>-45-point cross-type autofocus system</li>
-                                                    <li>-ISO speed 100 - 40000 expandable to 102400</li>
+                                                    <li>-ISO speed 100 - 40000 (expandable to 102400)</li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-b30"></div>
@@ -54,8 +57,11 @@
                                 </div>
                             </div>
                             <div class="slider-product-preview" data-swiper-parallax-x="-600">
+<<<<<<< HEAD
                                 <img src="img/C2.png" alt="" />
-
+=======
+                                <img src="img/C1.png" alt="" />
+>>>>>>> origin/master
                             </div>
                             <div class="empty-space col-xs-b80 col-sm-b0"></div>
                         </div>
