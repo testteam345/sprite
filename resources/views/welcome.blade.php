@@ -241,7 +241,7 @@
                                     <div class="entry" style="color: #50e3f0;"></div>
                                     <div class="entry" style="color: #eee;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">฿17,400</span></div>
+                                <div class="simple-article size-4"><span class="color">฿17,400</span></div>
                             </div>
                         </div>
                     </div>
@@ -249,7 +249,7 @@
                         <div class="product-shortcode style-1 big">
                             
                             <div class="preview">
-                                <img src="img/product-63.jpg" alt="">
+                                <img src="img/Ca1.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -269,7 +269,7 @@
                             </div>
                             <div class="title">
                                 <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Canon EOS M10 Kit 15-45mm</a></div>
+                                <div class="h6 animate-to-green"><a href="#">Canon IXUS 310 HS (Pink)</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -285,7 +285,7 @@
                                     <div class="entry" style="color: #3481c7;"></div>
                                     <div class="entry" style="color: #bf584b;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="color">$155.00</span>&nbsp;&nbsp;&nbsp;<span class="line-through">$350.00</span></div>
+                                <div class="simple-article size-4"><span class="color">฿8,990</span>&nbsp;&nbsp;&nbsp;</div>
                             </div>
                         </div>
                     </div>
@@ -423,7 +423,7 @@
                         <div class="product-shortcode style-1 big">
                             <div class="product-label red">20% discount</div>
                             <div class="preview">
-                                <img src="img/Ca1.jpg" alt="">
+                                <img src="img/product-63.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
