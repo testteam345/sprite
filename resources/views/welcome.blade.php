@@ -17,7 +17,7 @@
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">OAT RIDER</h1>
+                                            <h1 class="h1 light">KUY OAT RIDER</h1>
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
@@ -292,7 +292,7 @@
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
                             <div class="preview">
-                                <img src="img/product-64.jpg" alt="">
+                                <img src="img/F1.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -311,8 +311,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">COLOREX EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">hipster beat hr</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Fujifilm Instax Mini Instant TSUM TSUM</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -328,7 +328,7 @@
                                     <div class="entry" style="color: #e1191d;"></div>
                                     <div class="entry" style="color: #facc22;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">$190.00</span></div>
+                                <div class="simple-article size-4"><span class="color" >฿3,590</span></div>
                             </div>
                         </div>
                     </div>
