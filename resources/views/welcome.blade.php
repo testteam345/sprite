@@ -13,7 +13,7 @@
                                     <div class="cell-view page-height">
                                         <div class="col-xs-b40 col-sm-b80"></div>
                                         <div data-swiper-parallax-x="-600">
-                                            <div class="simple-article light transparent size-3">PRODUCT</div>
+                                            <div class="simple-article light transparent size-3">PROFESSIONAL EDITION</div>
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
