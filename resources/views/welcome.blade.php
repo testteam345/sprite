@@ -17,23 +17,27 @@
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
+<<<<<<< HEAD
+                                            <h1 class="h1 light"> Canon EOS 6D Mark II Kit 24-70mm f4 </h1>
+=======
                                             <h1 class="h1 light">KUY OAT RIDER</h1>
+>>>>>>> origin/master
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
                                             <div class="simple-article size-4 light transparent">
-                                                <p>In feugiat molestie tortor a malesuada. Etiam a venenatis ipsum. Proin pharetra elit at feugiat commodo vel placerat tincidunt sapien nec</p>
+                                                <p> Detail </p>
                                                 <ul>
-                                                    <li>20.000h of high quality music</li>
-                                                    <li>Perfect insulation</li>
-                                                    <li>5 years guaranteed work</li>
+                                                    <li>-26.2 megapixel full-frame CMOS image sensor</li>
+                                                    <li>-45-point cross-type autofocus system</li>
+                                                    <li>-ISO speed 100 - 40000 (expandable to 102400)</li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-b30"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-300">
                                             <div class="buttons-wrapper">
-                                                <div class="simple-article size-5 light transparent">BEST PRICE: $195.00</div>
+                                                <div class="simple-article size-5 light transparent">BEST PRICE: ฿99,900</div>
                                                 <a class="button size-2 style-1" href="#">
                                                     <span class="button-wrapper">
                                                         <span class="icon"><img src="img/icon-1.png" alt=""></span>
@@ -53,7 +57,11 @@
                                 </div>
                             </div>
                             <div class="slider-product-preview" data-swiper-parallax-x="-600">
+<<<<<<< HEAD
+                                <img src="img/C2.png" alt="" />
+=======
                                 <img src="img/C1.png" alt="" />
+>>>>>>> origin/master
                             </div>
                             <div class="empty-space col-xs-b80 col-sm-b0"></div>
                         </div>
