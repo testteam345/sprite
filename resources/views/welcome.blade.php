@@ -1596,6 +1596,21 @@
                                         </div>
                                         <div data-swiper-parallax-x="-300">
                                             <div class="buttons-wrapper">
+                                                <div class="simple-article size-5 light transparent">BEST PRICE: $195.00</div>
+                                                <a class="button size-2 style-1" href="#">
+                                                    <span class="button-wrapper">
+                                                        <span class="icon"><img src="img/icon-1.png" alt=""></span>
+                                                        <span class="text">Learn More</span>
+                                                    </span>
+                                                </a>
+                                                <a class="button size-2 style-2" href="#">
+                                                    <span class="button-wrapper">
+                                                        <span class="icon"><img src="img/icon-2.png" alt=""></span>
+                                                        <span class="text">Add To Cart</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
                                         <div class="col-xs-b35 col-sm-b70"></div>
                                     </div>
                                 </div>
