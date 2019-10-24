@@ -203,9 +203,9 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
-                            <div class="product-label green">best price</div>
+                            
                             <div class="preview">
-                                <img src="img/C5.jpg" alt="">
+                                <img src="img/N1.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -247,7 +247,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
-                            <div class="product-label red">20% discount</div>
+                            
                             <div class="preview">
                                 <img src="img/product-63.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
@@ -268,8 +268,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">ERGO EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">sport beat atx</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Canon EOS M10 Kit 15-45mm</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -423,7 +423,7 @@
                         <div class="product-shortcode style-1 big">
                             <div class="product-label red">20% discount</div>
                             <div class="preview">
-                                <img src="img/product-63.jpg" alt="">
+                                <img src="img/Ca1.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
