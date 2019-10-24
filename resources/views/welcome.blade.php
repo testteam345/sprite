@@ -17,7 +17,7 @@
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">real beat trx</h1>
+                                            <h1 class="h1 light">KUY SPRITE</h1>
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                             <div class="slider-product-preview" data-swiper-parallax-x="-600">
-                                <img src="img/C1.png" alt="" />
+                                <img src="img/oat.jpg" alt="" />
                             </div>
                             <div class="empty-space col-xs-b80 col-sm-b0"></div>
                         </div>
@@ -74,7 +74,7 @@
                                         </div>
                                         <div data-swiper-parallax-x="-400">
                                             <div class="simple-article size-4 light transparent">
-                                                <p>In feugiat molestie tortor a malesuada. Etiam a venenatis ipsum. Proin pharetra elit at feugiat commodo vel placerat tincidunt sapien nec</p>
+                                                <p></p>
                                                 <ul>
                                                     <li>20.000h of high quality music</li>
                                                     <li>Perfect insulation</li>
@@ -156,7 +156,7 @@
                <div class="swiper-pagination swiper-pagination-white"></div>
             </div>
         </div>
-
+<!-- 
         <div class="row nopadding">
             <div class="col-sm-6">
                 <div class="banner-shortcode style-3 wide" style="background-image: url(img/background-9.jpg);">
@@ -194,7 +194,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="slider-wrapper">
             <div class="swiper-button-prev visible-lg"></div>
@@ -554,20 +554,20 @@
             </div>
         </div>
 
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
+        <!-- <div class="empty-space col-xs-b35 col-md-b70"></div>
+        <div class="empty-space col-xs-b35 col-md-b70"></div> -->
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="text-center">
                 <div class="simple-article size-3 grey uppercase col-xs-b5">special offers</div>
                 <div class="h2">choose the best</div>
                 <div class="title-underline center"><span></span></div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
+        <!-- <div class="empty-space col-xs-b35 col-md-b70"></div> -->
 
-        <div class="slider-wrapper">
+        <!-- <div class="slider-wrapper">
             <div class="swiper-button-prev hidden"></div>
             <div class="swiper-button-next hidden"></div>
             <div class="swiper-container" data-parallax="1">
@@ -672,7 +672,7 @@
                <div class="col-xs-b25 col-sm-b50"></div>
                <div class="swiper-pagination relative-pagination"></div>
             </div>
-        </div>
+        </div> -->
 
         <div class="empty-space col-xs-b35 col-md-b70"></div>
         <div class="empty-space col-xs-b35 col-md-b70"></div>
@@ -1388,7 +1388,7 @@
             </div>
         </div>
 
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
+        <!-- <div class="empty-space col-xs-b35 col-md-b70"></div>
         <div class="empty-space col-xs-b35 col-md-b70"></div>
 
         <div class="container">
@@ -1397,11 +1397,11 @@
                 <div class="h2">choosing in one style</div>
                 <div class="title-underline center"><span></span></div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
+        <!-- <div class="empty-space col-xs-b35 col-md-b70"></div> -->
 
-        <div class="slider-wrapper">
+        <!-- <div class="slider-wrapper">
             <div class="swiper-button-prev hidden"></div>
             <div class="swiper-button-next hidden"></div>
             <div class="swiper-container">
@@ -1558,7 +1558,7 @@
                <div class="col-xs-b25 col-sm-b50"></div>
                <div class="swiper-pagination relative-pagination"></div>
             </div>
-        </div>
+        </div> -->
 
         <div class="empty-space col-xs-b35 col-md-b70"></div>
         <div class="empty-space col-xs-b35 col-md-b70"></div>
