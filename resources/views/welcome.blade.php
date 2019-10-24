@@ -205,7 +205,7 @@
                         <div class="product-shortcode style-1 big">
                             <div class="product-label green">best price</div>
                             <div class="preview">
-                                <img src="img/product-62.jpg" alt="">
+                                <img src="img/C5.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -224,8 +224,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">MODERN EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">modern beat ht</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Nikon COOLPIX W300</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -241,7 +241,7 @@
                                     <div class="entry" style="color: #50e3f0;"></div>
                                     <div class="entry" style="color: #eee;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">$155.00</span></div>
+                                <div class="simple-article size-4"><span class="dark">฿17,400</span></div>
                             </div>
                         </div>
                     </div>
