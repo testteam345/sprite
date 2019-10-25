@@ -155,8 +155,8 @@
                <div class="swiper-pagination swiper-pagination-white"></div>
             </div>
         </div>
-<!-- 
-        <div class="row nopadding">
+
+        {{-- <div class="row nopadding">
             <div class="col-sm-6">
                 <div class="banner-shortcode style-3 wide" style="background-image: url(img/background-9.jpg);">
                     <div class="valign-middle-cell">
@@ -193,12 +193,12 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>  --}}
 
         <div class="slider-wrapper">
             <div class="swiper-button-prev visible-lg"></div>
             <div class="swiper-button-next visible-lg"></div>
-            <div class="swiper-container" data-breakpoints="1" data-xs-slides="1" data-sm-slides="2" data-md-slides="2" data-lt-slides="3"  data-slides-per-view="4">
+         <div class="swiper-container" data-breakpoints="1" data-xs-slides="1" data-sm-slides="2" data-md-slides="2" data-lt-slides="3"  data-slides-per-view="4">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
@@ -548,7 +548,7 @@
                     </div>
                 </div>
                 <div class="swiper-pagination relative-pagination visible-xs visible-sm"></div>
-            </div>
+            </div> 
         </div>
 
         <!-- <div class="empty-space col-xs-b35 col-md-b70"></div>
@@ -671,18 +671,18 @@
             </div>
         </div> -->
 
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
+        {{-- <div class="empty-space col-xs-b35 col-md-b70"></div>
+        <div class="empty-space col-xs-b35 col-md-b70"></div> --}}
 
-        <div class="container">
+        {{-- <div class="container">
             <div class="text-center">
                 <div class="simple-article size-3 grey uppercase col-xs-b5"></div>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
+        {{-- <div class="empty-space col-xs-b35 col-md-b70"></div> --}}
 
-        <div class="tabs-block">
+        {{-- <div class="tabs-block">
             <div class="container">
                 <div class="tabulation-menu-wrapper text-center">
                 </div>
@@ -1372,7 +1372,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- <div class="empty-space col-xs-b35 col-md-b70"></div>
         <div class="empty-space col-xs-b35 col-md-b70"></div>
@@ -1546,10 +1546,10 @@
             </div>
         </div> -->
 
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
+        {{-- <div class="empty-space col-xs-b35 col-md-b70"></div>
+        <div class="empty-space col-xs-b35 col-md-b70"></div> --}}
 
-        <div class="slider-wrapper">
+        {{-- <div class="slider-wrapper">
             <div class="swiper-button-prev visible-lg"></div>
             <div class="swiper-button-next visible-lg"></div>
             <div class="swiper-container" data-parallax="1" data-auto-height="1">
@@ -1711,12 +1711,12 @@
                </div>
                <div class="swiper-pagination swiper-pagination-white hidden-lg"></div>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
-        <div class="empty-space col-xs-b35 col-md-b70"></div>
+        {{-- <div class="empty-space col-xs-b35 col-md-b70"></div>
+        <div class="empty-space col-xs-b35 col-md-b70"></div> --}}
 
-        <div class="container">
+        {{-- <div class="container">
             <div class="text-center">
                 <div class="simple-article size-3 grey uppercase col-xs-b5">accessories</div>
                 <div class="h2">choosing in one style</div>
@@ -2257,7 +2257,7 @@
             <div class="row-background left hidden-xs">
                 <img src="img/background-8.jpg" alt="" />
             </div>
-        </div>
+        </div> --}}
     </div>
 @endsection
 
