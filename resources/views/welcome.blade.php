@@ -17,14 +17,14 @@
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">KUY OAT RIDER</h1>
+                                            <h1 class="h1 light">CANON EOS 6D</h1>
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
                                             <div class="simple-article size-4 light transparent">
-                                                <p>In feugiat molestie tortor a malesuada. Etiam a venenatis ipsum. Proin pharetra elit at feugiat commodo vel placerat tincidunt sapien nec</p>
+                                                <p>EOS 6D Mark II กล้อง DSLR แบบฟูลเฟรมในตระกูล EOS ที่มีน้ำหนักเบาที่สุด ครบครันด้วยสุดยอดฟังก์ชั่น พร้อมบอดี้ขนาดกะทะรัดน้ำหนักเบา ที่จะช่วยยกระดับภาพถ่ายของคุณไปอีกขั้น ด้วยเซ็นเซอร์ภาพความละเอียด 26.2 ล้านพิกเซล เทคโนโลยีออโต้โฟกัส Dual Pixel CMOS AF และหน้าจอแอลซีดีทัชสกรีนปรับได้หลายทิศทาง ช่วยให้ได้ภาพสวยน่าประทับใจทั้งภาพนิ่งและวิดีโอ </p>
                                                 <ul>
-                                                    <li>20.000h of high quality music</li>
+                                                    <li>Display LCD</li>
                                                     <li>Perfect insulation</li>
                                                     <li>5 years guaranteed work</li>
                                                 </ul>
@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                             <div class="slider-product-preview" data-swiper-parallax-x="-600">
-                                <img src="img/C1.png" alt="" />
+                                <img src="img/C2.png" alt="" />
                             </div>
                             <div class="empty-space col-xs-b80 col-sm-b0"></div>
                         </div>
@@ -334,7 +334,7 @@
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
                             <div class="preview">
-                                <img src="img/product-65.jpg" alt="">
+                                <img src="img/S1.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -353,8 +353,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">ERGO EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">sport beat rtx</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Sony Alpha a6300 Kit 16-50mm</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -370,15 +370,14 @@
                                     <div class="entry" style="color: #a4c131;"></div>
                                     <div class="entry" style="color: #68c131;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">$185.00</span></div>
+                                <div class="simple-article size-4"><span class="color">฿31,990</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
-                            <div class="product-label green">best price</div>
                             <div class="preview">
-                                <img src="img/product-62.jpg" alt="">
+                                <img src="img/Pana1.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -397,8 +396,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">MODERN EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">modern beat ht</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Panasonic Lumix DMC-GF10 Kit 12-32 mm</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -414,14 +413,14 @@
                                     <div class="entry" style="color: #50e3f0;"></div>
                                     <div class="entry" style="color: #eee;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">$155.00</span></div>
+                                <div class="simple-article size-4"><span class="color">฿18,991</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
                             <div class="preview">
-                                <img src="img/product-63.jpg" alt="">
+                                <img src="img/Ca2.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -440,8 +439,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">ERGO EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">sport beat atx</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Canon EOS M5 KIT 15-45</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -457,14 +456,14 @@
                                     <div class="entry" style="color: #3481c7;"></div>
                                     <div class="entry" style="color: #bf584b;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="color">$155.00</span>&nbsp;&nbsp;&nbsp;<span class="line-through">$350.00</span></div>
+                                <div class="simple-article size-4"><span class="color">฿40,990</span></span></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
                             <div class="preview">
-                                <img src="img/product-64.jpg" alt="">
+                                <img src="img/Ca3.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -483,8 +482,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">COLOREX EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">hipster beat hr</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Canon EOS 77D 18-55mm</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -500,14 +499,14 @@
                                     <div class="entry" style="color: #e1191d;"></div>
                                     <div class="entry" style="color: #facc22;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">$190.00</span></div>
+                                <div class="simple-article size-4"><span class="color">฿37,900</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="product-shortcode style-1 big">
                             <div class="preview">
-                                <img src="img/product-65.jpg" alt="">
+                                <img src="img/F2.jpg" alt="">
                                 <div class="preview-buttons valign-middle">
                                     <div class="valign-middle-content">
                                         <a class="button size-2 style-2" href="#">
@@ -526,8 +525,8 @@
                                 </div>
                             </div>
                             <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#">ERGO EDITION</a></div>
-                                <div class="h6 animate-to-green"><a href="#">sport beat rtx</a></div>
+                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
+                                <div class="h6 animate-to-green"><a href="#">Fujifilm X-A7 Kit 15-45mm</a></div>
                             </div>
                             <div class="description">
                                 <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
@@ -543,7 +542,7 @@
                                     <div class="entry" style="color: #a4c131;"></div>
                                     <div class="entry" style="color: #68c131;"></div>
                                 </div>
-                                <div class="simple-article size-4"><span class="dark">$185.00</span></div>
+                                <div class="simple-article size-4"><span class="color">฿24,990</span></div>
                             </div>
                         </div>
                     </div>
