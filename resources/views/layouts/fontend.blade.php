@@ -215,14 +215,12 @@
                                             <a href="about1.html">about us</a>
                                         </li>
                                         <li class="megamenu-wrapper">
-                                            <a href="products1.html">products</a>
+                                            <a href="{{route('pro_all')}}">products</a>
                                             <div class="menu-toggle"></div>
                                             <div class="megamenu">
                                                 <div class="links">
-                                                    <a class="active" href="products1.html">Products Landing 1</a>
-                                                    <a href="products2.html">Products Landing 2</a>
-                                                    <a href="products3.html">Products Landing 3</a>
-                                                    <a href="product.html">Product Detail</a>
+                                                    <a class="active" href="{{route('pro_all')}}">Products Landing 1</a>
+                                                    
                                                 </div>
                                                 <div class="content">
                                                     <div class="row nopadding">
