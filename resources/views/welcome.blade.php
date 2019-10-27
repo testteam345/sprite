@@ -69,7 +69,7 @@
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">real beat trx</h1>
+                                            <h1 class="h1 light">Canon EOS R Kit 24-105mm</h1>
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
@@ -105,6 +105,7 @@
                                 </div>
                             </div>
                             <div class="slider-product-preview align-left" data-swiper-parallax-x="-600">
+                                    <img src="img/C3.png" alt="" />
                             </div>
                             <div class="empty-space col-xs-b80 col-sm-b0"></div>
                         </div>
@@ -120,7 +121,7 @@
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">real beat trx</h1>
+                                            <h1 class="h1 light">Canon EOS R Kit 24-105mm</h1>
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
