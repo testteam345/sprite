@@ -24,16 +24,16 @@
                                             <div class="simple-article size-4 light transparent">
                                                 <p>EOS 6D Mark II กล้อง DSLR แบบฟูลเฟรมในตระกูล EOS ที่มีน้ำหนักเบาที่สุด ครบครันด้วยสุดยอดฟังก์ชั่น พร้อมบอดี้ขนาดกะทะรัดน้ำหนักเบา ที่จะช่วยยกระดับภาพถ่ายของคุณไปอีกขั้น ด้วยเซ็นเซอร์ภาพความละเอียด 26.2 ล้านพิกเซล เทคโนโลยีออโต้โฟกัส Dual Pixel CMOS AF และหน้าจอแอลซีดีทัชสกรีนปรับได้หลายทิศทาง ช่วยให้ได้ภาพสวยน่าประทับใจทั้งภาพนิ่งและวิดีโอ </p>
                                                 <ul>
-                                                    <li>Display LCD</li>
-                                                    <li>Perfect insulation</li>
-                                                    <li>5 years guaranteed work</li>
+                                                    <li>เซ็นเซอร์ภาพ CMOS แบบฟูลเฟรม ความละเอียด 26.2 ล้านพิกเซล</li>
+                                                    <li>เทคโนโลยี Dual Pixel CMOS AF</li>
+                                                    <li>ความไวแสง ISO 100 – 40000 (ขยายได้ถึง 102400)</li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-b30"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-300">
                                             <div class="buttons-wrapper">
-                                                <div class="simple-article size-5 light transparent">BEST PRICE: $195.00</div>
+                                                <div class="simple-article size-5 light transparent">BEST PRICE: ฿76,900</div>
                                                 <a class="button size-2 style-1" href="#">
                                                     <span class="button-wrapper">
                                                         <span class="icon"><img src="img/icon-1.png" alt=""></span>
@@ -76,16 +76,16 @@
                                             <div class="simple-article size-4 light transparent">
                                                 <p></p>
                                                 <ul>
-                                                    <li>20.000h of high quality music</li>
-                                                    <li>Perfect insulation</li>
-                                                    <li>5 years guaranteed work</li>
+                                                    <li>เซนเซอร์ CMOS ขนาดฟูลเฟรม ความละเอียด 30.3 ล้านพิกเซล</li>
+                                                    <li>โฟกัสภาพเร็วใน 0.05 วินาที</li>
+                                                    <li>ออโต้โฟกัสเลือกได้ 5,655 ตำแหน่ง</li>
                                                 </ul>
                                             </div>
                                             <div class="col-xs-b30"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-300">
                                             <div class="buttons-wrapper">
-                                                <div class="simple-article size-5 light transparent">BEST PRICE: $195.00</div>
+                                                <div class="simple-article size-5 light transparent">BEST PRICE: ฿93,500</div>
                                                 <a class="button size-2 style-1" href="#">
                                                     <span class="button-wrapper">
                                                         <span class="icon"><img src="img/icon-1.png" alt=""></span>
@@ -121,12 +121,10 @@
                                             <div class="col-xs-b5"></div>
                                         </div>
                                         <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">Canon EOS R Kit 24-105mm</h1>
                                             <div class="title-underline light left"><span></span></div>
                                         </div>
                                         <div data-swiper-parallax-x="-400">
                                             <div class="simple-article size-4 light transparent">
-                                                <p>In feugiat molestie tortor a malesuada. Etiam a venenatis ipsum. Proin pharetra elit at feugiat commodo vel placerat tincidunt sapien nec</p>
                                                 <ul>
                                                     <li>20.000h of high quality music</li>
                                                     <li>Perfect insulation</li>
@@ -228,7 +226,7 @@
                                 <div class="h6 animate-to-green"><a href="#">Nikon COOLPIX W300</a></div>
                             </div>
                             <div class="description">
-                                <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
+                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
                                 <div class="icons">
                                     <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
                                     <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -272,7 +270,7 @@
                                 <div class="h6 animate-to-green"><a href="#">Canon IXUS 310 HS (Pink)</a></div>
                             </div>
                             <div class="description">
-                                <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
+                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
                                 <div class="icons">
                                     <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
                                     <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -315,7 +313,7 @@
                                 <div class="h6 animate-to-green"><a href="#">Fujifilm Instax Mini Instant TSUM TSUM</a></div>
                             </div>
                             <div class="description">
-                                <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
+                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
                                 <div class="icons">
                                     <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
                                     <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -358,7 +356,7 @@
                                 <div class="h6 animate-to-green"><a href="#">Sony Alpha a6300 Kit 16-50mm</a></div>
                             </div>
                             <div class="description">
-                                <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
+                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
                                 <div class="icons">
                                     <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
                                     <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -401,7 +399,7 @@
                                 <div class="h6 animate-to-green"><a href="#">Panasonic Lumix DMC-GF10 Kit 12-32 mm</a></div>
                             </div>
                             <div class="description">
-                                <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
+                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
                                 <div class="icons">
                                     <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
                                     <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -444,7 +442,7 @@
                                 <div class="h6 animate-to-green"><a href="#">Canon EOS M5 KIT 15-45</a></div>
                             </div>
                             <div class="description">
-                                <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
+                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
                                 <div class="icons">
                                     <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
                                     <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -487,7 +485,7 @@
                                 <div class="h6 animate-to-green"><a href="#">Canon EOS 77D 18-55mm</a></div>
                             </div>
                             <div class="description">
-                                <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
+                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
                                 <div class="icons">
                                     <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
                                     <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
@@ -530,7 +528,7 @@
                                 <div class="h6 animate-to-green"><a href="#">Fujifilm X-A7 Kit 15-45mm</a></div>
                             </div>
                             <div class="description">
-                                <div class="simple-article text size-2">Mollis nec consequat at In feugiat molestie tortor a malesuada etiam a venenatis ipsum</div>
+                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
                                 <div class="icons">
                                     <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
                                     <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
