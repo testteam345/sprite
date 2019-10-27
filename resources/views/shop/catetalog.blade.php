@@ -103,7 +103,7 @@
                             <div class="product-shortcode style-1">
                                 <div class="title">
                                     <div class="simple-article size-1 color col-xs-b5"><a href="#">{{$product->cate_name}}</a></div>
-                                    <div class="h6 animate-to-green"><a href="#">{{$product->cate_name}}</a></div>
+                                    <div class="h6 animate-to-green"><a href="#">{{$product->pro_name}}</a></div>
                                 </div>
                                 <div class="preview">
                                     <img src="{{ env('APP_ASSET') }}images/product_img/{{$product->pro_img}}" alt="">
