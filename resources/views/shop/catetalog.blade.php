@@ -162,7 +162,9 @@
                 </div>
             </div>
             <div class="empty-space col-xs-b35 col-sm-b0"></div>
-            <div class="row">
+            {{ $products->links('layouts.pagination') }}
+
+            {{-- <div class="row">
                 <div class="col-sm-3 hidden-xs">
                     <a class="button size-1 style-5" href="#">
                         <span class="button-wrapper">
@@ -171,6 +173,7 @@
                         </span>
                     </a>
                 </div>
+                
                 <div class="col-sm-6 text-center">
                     <div class="pagination-wrapper">
                         <a class="pagination active">1</a>
@@ -189,7 +192,7 @@
                         </span>
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="empty-space col-xs-b35 col-md-b70"></div>
             <div class="empty-space col-md-b70"></div>
