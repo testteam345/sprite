@@ -457,26 +457,15 @@
             <div class="empty-space col-xs-b25 col-sm-b50"></div>
 
             <div class="h4 col-xs-b25">Brands</div>
-            <label class="checkbox-entry">
-                <input type="checkbox"><span>LG</span>
+            <form id="where_form" action="{{route('pro_all')}}" method="get">
+            @foreach ($cate_info as $row)
+            <label for="c1{{$row->cate_id}}" class="checkbox-entry">
+            <input type="checkbox" onclick="$('#where_form').submit()" id="c1{{$row->cate_id}}" value="{{$row->cate_id}}" {{(isset($_GET['cc'][$row->cate_id])&& $_GET['cc'][$row->cate_id]==$row->cate_id)?'checked':''}} name="cc[{{$row->cate_id}}]"><span>{{$row->cate_name}}</span>
             </label>
             <div class="empty-space col-xs-b10"></div>
-            <label class="checkbox-entry">
-                <input type="checkbox"><span>SAMSUNG</span>
-            </label>
-            <div class="empty-space col-xs-b10"></div>
-            <label class="checkbox-entry">
-                <input type="checkbox"><span>Apple</span>
-            </label>
-            <div class="empty-space col-xs-b10"></div>
-            <label class="checkbox-entry">
-                <input type="checkbox"><span>HTC</span>
-            </label>
-            <div class="empty-space col-xs-b10"></div>
-            <label class="checkbox-entry">
-                <input type="checkbox"><span>Google</span>
-            </label>
-
+            @endforeach
+        </form>
+           
             <div class="empty-space col-xs-b25 col-sm-b50"></div>
 
             <div class="h4 col-xs-b25">Choose Color</div>

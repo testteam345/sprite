@@ -48,7 +48,7 @@ class ProductRepository
             ->paginate(16);
             return $pro;
         }else{
-            $pro = $pro->get();
+            $pro = $pro->orderby('pro_id','desc')->get();
             return $pro;
         }
     }
