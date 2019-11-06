@@ -254,7 +254,7 @@
                         </div>
                         <div class="simple-article size-3 col-xs-b30">{{$product->pro_sub_detail}}</div>
                         <div class="row col-xs-b40">
-                            
+                            {{$product->pro_detail}}
                             </div>
                         </div>
                         <div class="row col-xs-b40">

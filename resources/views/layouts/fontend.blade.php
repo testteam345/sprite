@@ -69,13 +69,13 @@
                             
                            
                             <div class="entry hidden-xs hidden-sm cart">
-                                <a href="cart.html">
+                                <a href="{{route('cart')}}">
                                     <b class="hidden-xs">Your bag</b>
                                     <span class="cart-icon">
                                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                                         <span class="cart-label" id="in_cart_label">5</span>
                                     </span>
-                                    <span class="cart-title hidden-xs">00</span>
+                                    <span class="cart-title hidden-xs" id="total_price2">00</span>
                                 </a>
                                 <div class="cart-toggle hidden-xs hidden-sm">
                                     <div class="cart-overflow" id="list_cart">
@@ -490,6 +490,7 @@
                     $('#list_cart').html(str)
                     $('#in_cart_label').html(len)
                     $('#total_price').html('฿' + total.toFixed(2))
+                    $('#total_price2').html('฿' + total.toFixed(2))
                 },
                 error: (error) => {
                     console.log(error)
