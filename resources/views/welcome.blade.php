@@ -33,18 +33,12 @@
                                         </div>
                                         <div data-swiper-parallax-x="-300">
                                             <div class="buttons-wrapper">
-                                                <div class="simple-article size-5 light transparent">BEST PRICE: ฿76,900</div>
+                                                
                                                 <a class="button size-2 style-1" href="#">
-                                                    <span class="button-wrapper">
-                                                        <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                        <span class="text">Learn More</span>
-                                                    </span>
+                                                    
                                                 </a>
                                                 <a class="button size-2 style-2" href="#">
-                                                    <span class="button-wrapper">
-                                                        <span class="icon"><img src="img/icon-2.png" alt=""></span>
-                                                        <span class="text">Add To Cart</span>
-                                                    </span>
+                                                    
                                                 </a>
                                             </div>
                                         </div>
@@ -85,18 +79,12 @@
                                         </div>
                                         <div data-swiper-parallax-x="-300">
                                             <div class="buttons-wrapper">
-                                                <div class="simple-article size-5 light transparent">BEST PRICE: ฿93,500</div>
+                                                
                                                 <a class="button size-2 style-1" href="#">
-                                                    <span class="button-wrapper">
-                                                        <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                        <span class="text">Learn More</span>
-                                                    </span>
+                                                   
                                                 </a>
                                                 <a class="button size-2 style-2" href="#">
-                                                    <span class="button-wrapper">
-                                                        <span class="icon"><img src="img/icon-2.png" alt=""></span>
-                                                        <span class="text">Add To Cart</span>
-                                                    </span>
+                                                   
                                                 </a>
                                             </div>
                                         </div>
@@ -195,11 +183,7 @@
                                 </div>
                             </div>
                             <div class="price">
-                                <div class="color-selection">
-                                    <div class="entry active" style="color: #a7f050;"></div>
-                                    <div class="entry" style="color: #50e3f0;"></div>
-                                    <div class="entry" style="color: #eee;"></div>
-                                </div>
+                               
                                 <div class="simple-article size-4"><span class="color">฿17,400</span></div>
                             </div>
                         </div>
@@ -239,11 +223,7 @@
                                 </div>
                             </div>
                             <div class="price">
-                                <div class="color-selection">
-                                    <div class="entry active" style="color: #7d3f99;"></div>
-                                    <div class="entry" style="color: #3481c7;"></div>
-                                    <div class="entry" style="color: #bf584b;"></div>
-                                </div>
+                             
                                 <div class="simple-article size-4"><span class="color">฿8,990</span>&nbsp;&nbsp;&nbsp;</div>
                             </div>
                         </div>
@@ -282,11 +262,7 @@
                                 </div>
                             </div>
                             <div class="price">
-                                <div class="color-selection">
-                                    <div class="entry active" style="color: #3b8bd5;"></div>
-                                    <div class="entry" style="color: #e1191d;"></div>
-                                    <div class="entry" style="color: #facc22;"></div>
-                                </div>
+                                
                                 <div class="simple-article size-4"><span class="color" >฿3,590</span></div>
                             </div>
                         </div>
@@ -325,11 +301,7 @@
                                 </div>
                             </div>
                             <div class="price">
-                                <div class="color-selection">
-                                    <div class="entry active" style="color: #c16e31;"></div>
-                                    <div class="entry" style="color: #a4c131;"></div>
-                                    <div class="entry" style="color: #68c131;"></div>
-                                </div>
+                                
                                 <div class="simple-article size-4"><span class="color">฿31,990</span></div>
                             </div>
                         </div>
@@ -368,11 +340,7 @@
                                 </div>
                             </div>
                             <div class="price">
-                                <div class="color-selection">
-                                    <div class="entry active" style="color: #a7f050;"></div>
-                                    <div class="entry" style="color: #50e3f0;"></div>
-                                    <div class="entry" style="color: #eee;"></div>
-                                </div>
+                                
                                 <div class="simple-article size-4"><span class="color">฿18,991</span></div>
                             </div>
                         </div>
@@ -411,11 +379,7 @@
                                 </div>
                             </div>
                             <div class="price">
-                                <div class="color-selection">
-                                    <div class="entry active" style="color: #7d3f99;"></div>
-                                    <div class="entry" style="color: #3481c7;"></div>
-                                    <div class="entry" style="color: #bf584b;"></div>
-                                </div>
+                            
                                 <div class="simple-article size-4"><span class="color">฿40,990</span></span></div>
                             </div>
                         </div>
@@ -454,11 +418,7 @@
                                 </div>
                             </div>
                             <div class="price">
-                                <div class="color-selection">
-                                    <div class="entry active" style="color: #3b8bd5;"></div>
-                                    <div class="entry" style="color: #e1191d;"></div>
-                                    <div class="entry" style="color: #facc22;"></div>
-                                </div>
+                                
                                 <div class="simple-article size-4"><span class="color">฿37,900</span></div>
                             </div>
                         </div>
@@ -497,11 +457,7 @@
                                 </div>
                             </div>
                             <div class="price">
-                                <div class="color-selection">
-                                    <div class="entry active" style="color: #c16e31;"></div>
-                                    <div class="entry" style="color: #a4c131;"></div>
-                                    <div class="entry" style="color: #68c131;"></div>
-                                </div>
+                               
                                 <div class="simple-article size-4"><span class="color">฿24,990</span></div>
                             </div>
                         </div>

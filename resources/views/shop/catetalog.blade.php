@@ -21,43 +21,12 @@
                             <div class="background"
                                 style="background-image: url({{ env('APP_ASSET') }}img/thumbnail-14.jpg);"></div>
                             <div class="description valign-middle">
-                                <div class="valign-middle-content">
-                                    <div class="simple-article size-3 light fulltransparent">DON'T MISS!</div>
-                                    <div class="banner-title color">UP TO 70%</div>
-                                    <div class="h4 light">best android tv box</div>
-                                    <div class="empty-space col-xs-b25"></div>
-                                    <a class="button size-1 style-3" href="#">
-                                        <span class="button-wrapper">
-                                            <span class="icon"><img src="img/icon-4.png" alt=""></span>
-                                            <span class="text">learn more</span>
-                                        </span>
-                                    </a>
-                                </div>
+                                
                                 <div class="empty-space col-xs-b60 col-sm-b0"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="banner-shortcode style-1">
-                            <div class="background"
-                                style="background-image: url({{ env('APP_ASSET') }}img/thumbnail-10.jpg);"></div>
-                            <div class="description valign-middle">
-                                <div class="valign-middle-content">
-                                    <div class="simple-article size-3 light fulltransparent">DON'T MISS!</div>
-                                    <div class="banner-title color">UP TO 70%</div>
-                                    <div class="h4 light">best android tv box</div>
-                                    <div class="empty-space col-xs-b25"></div>
-                                    <a class="button size-1 style-3" href="#">
-                                        <span class="button-wrapper">
-                                            <span class="icon"><img src="img/icon-4.png" alt=""></span>
-                                            <span class="text">learn more</span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="empty-space col-xs-b60 col-sm-b0"></div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -192,7 +161,7 @@
             <div class="empty-space col-md-b70"></div>
         </div>
         <div class="col-md-3 col-md-pull-9">
-            <div class="h4 col-xs-b10">popular categories</div>
+           
 
             <div class="empty-space col-xs-b25 col-sm-b50"></div>
 
