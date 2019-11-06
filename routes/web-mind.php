@@ -30,5 +30,5 @@ Route::group(['prefix' => 'how-to-buy'], function () {
 });
 
 Route::group(['prefix' => 'contact'], function () {
-    Route::get('/','AboutController@about');
+    Route::get('/','AboutController@about')->name('about_us_pae');
 });

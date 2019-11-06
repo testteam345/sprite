@@ -199,7 +199,7 @@
                                            
                                         </li>
                                         <li>
-                                            <a href="about1.html">about us</a>
+                                        <a href="{{route('about_us_pae')}}">about us</a>
                                         </li>
                                         <li class="megamenu-wrapper">
                                             <a href="{{route('pro_all')}}">products</a>
