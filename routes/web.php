@@ -24,6 +24,10 @@ Route::get('/manage_product', function () {
     return view('manage.product');
 })->name('manage_product');
 
+Route::get('/contacts_sprite', function () {
+    return view('contact.contact');
+})->name('contacts_sprite');
+
 Route::get('/manage_cate', function () {
     return view('manage.cate');
 })->name('manage_cate');
