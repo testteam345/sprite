@@ -79,10 +79,10 @@
 
 <div class="container">    
     <div class="map-wrapper">
-        <div id="map-canvas" class="full-width" data-lat="34.0151244" data-lng="-118.4729871" data-zoom="14"></div>
+        <div id="map-canvas" class="full-width" data-lat="13.568380" data-lng="100.810273" data-zoom="14"></div>
     </div>
     <div class="addresses-block hidden">
-        <a class="marker" data-lat="34.0151244" data-lng="-118.4729871" data-string="1. Here is some address or email or phone or something else..."></a>
+        <a class="marker" data-lat="13.568380" data-lng="100.810273" data-string="1. Here is some address or email or phone or something else..."></a>
     </div>
 </div>
 

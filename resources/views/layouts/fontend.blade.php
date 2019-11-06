@@ -53,7 +53,7 @@
                         <div class="col-md-5 hidden-xs hidden-sm">
                             <div class="entry"><b>contact us:</b> <a href="tel:+35235551238745">+3 (523) 555 123
                                     8745</a></div>
-                            <div class="entry"><b>email:</b> <a href="mailto:office@exzo.com">office@exzo.com</a></div>
+                            <div class="entry"><b>email:</b> <a href="mailto:office@exzo.com">OP@gmail.com</a></div>
                         </div>
                         <div class="col-md-7 col-md-text-right">
                             @if(Session::has('user_id'))
@@ -66,17 +66,8 @@
                             <div class="entry"><a class="open-popup" data-rel="1"><b>login</b></a>&nbsp; or &nbsp;<a
                                     class="open-popup" data-rel="2"><b>register</b></a></div>
                             @endif
-                            <div class="entry language">
-                                <div class="title"><b>en</b></div>
-                                <div class="language-toggle header-toggle-animation">
-                                    <a href="index1.html">fr</a>
-                                    <a href="index1.html">ru</a>
-                                    <a href="index1.html">it</a>
-                                    <a href="index1.html">sp</a>
-                                </div>
-                            </div>
-                            <div class="entry hidden-xs hidden-sm"><a href="#"><i class="fa fa-heart-o"
-                                        aria-hidden="true"></i></a></div>
+                            
+                           
                             <div class="entry hidden-xs hidden-sm cart">
                                 <a href="cart.html">
                                     <b class="hidden-xs">Your bag</b>
@@ -84,7 +75,7 @@
                                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                                         <span class="cart-label" id="in_cart_label">5</span>
                                     </span>
-                                    <span class="cart-title hidden-xs">$1195.00</span>
+                                    <span class="cart-title hidden-xs">00</span>
                                 </a>
                                 <div class="cart-toggle hidden-xs hidden-sm">
                                     <div class="cart-overflow" id="list_cart">
@@ -205,15 +196,7 @@
                                     <ul>
                                         <li class="active">
                                             <a href="index1.html">Home</a>
-                                            <div class="menu-toggle"></div>
-                                            <ul>
-                                                <li class="active"><a href="index1.html">Homepage 1</a></li>
-                                                <li><a href="index2.html">Homepage 2</a></li>
-                                                <li><a href="index3.html">Homepage 3</a></li>
-                                                <li><a href="index4.html">Homepage 4</a></li>
-                                                <li><a href="index5.html">Homepage 5</a></li>
-                                                <li><a href="index6.html">Homepage 6</a></li>
-                                            </ul>
+                                           
                                         </li>
                                         <li>
                                             <a href="about1.html">about us</a>
@@ -221,332 +204,15 @@
                                         <li class="megamenu-wrapper">
                                             <a href="{{route('pro_all')}}">products</a>
                                             <div class="menu-toggle"></div>
-                                            <div class="megamenu">
-                                                <div class="links">
-                                                    <a class="active" href="{{route('pro_all')}}">Products Landing 1</a>
-
-                                                </div>
-                                                <div class="content">
-                                                    <div class="row nopadding">
-                                                        <div class="col-xs-6">
-                                                            <div class="product-shortcode style-5">
-                                                                <div class="product-label green">best price</div>
-                                                                <div class="icons">
-                                                                    <a class="entry"><i class="fa fa-check"
-                                                                            aria-hidden="true"></i></a>
-                                                                    <a class="entry open-popup" data-rel="3"><i
-                                                                            class="fa fa-eye"
-                                                                            aria-hidden="true"></i></a>
-                                                                    <a class="entry"><i class="fa fa-heart-o"
-                                                                            aria-hidden="true"></i></a>
-                                                                </div>
-                                                                <div class="preview">
-                                                                    <div class="swiper-container" data-loop="1">
-                                                                        <div class="swiper-button-prev style-1"></div>
-                                                                        <div class="swiper-button-next style-1"></div>
-                                                                        <div class="swiper-wrapper">
-                                                                            <div class="swiper-slide">
-                                                                                <img src="img/product-59.jpg" alt="" />
-                                                                            </div>
-                                                                            <div class="swiper-slide">
-                                                                                <img src="img/product-61.jpg" alt="" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="content-animate">
-                                                                    <div class="title">
-                                                                        <div class="shortcode-rate-wrapper">
-                                                                            <div class="rate-wrapper align-inline">
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star-o"
-                                                                                    aria-hidden="true"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="h6 animate-to-green"><a
-                                                                                href="product.html">modern beat nine</a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="description">
-                                                                        <div class="simple-article text size-2">Mollis
-                                                                            nec consequat at In feugiat molestie tortor
-                                                                            a malesuada</div>
-                                                                    </div>
-                                                                    <div class="price">
-                                                                        <div class="simple-article size-4 dark">$630.00
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="preview-buttons">
-                                                                    <div class="buttons-wrapper">
-                                                                        <a class="button size-2 style-2"
-                                                                            href="product.html">
-                                                                            <span class="button-wrapper">
-                                                                                <span class="icon"><img
-                                                                                        src="{{ env('APP_ASSET') }}assets/img/icon-1.png"
-                                                                                        alt=""></span>
-                                                                                <span class="text">Learn More</span>
-                                                                            </span>
-                                                                        </a>
-                                                                        <a class="button size-2 style-3" href="#">
-                                                                            <span class="button-wrapper">
-                                                                                <span class="icon"><img
-                                                                                        src="{{ env('APP_ASSET') }}assets/img/icon-3.png"
-                                                                                        alt=""></span>
-                                                                                <span class="text">Add To Cart</span>
-                                                                            </span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xs-6">
-                                                            <div class="product-shortcode style-5">
-                                                                <div class="product-label green">best price</div>
-                                                                <div class="icons">
-                                                                    <a class="entry"><i class="fa fa-check"
-                                                                            aria-hidden="true"></i></a>
-                                                                    <a class="entry open-popup" data-rel="3"><i
-                                                                            class="fa fa-eye"
-                                                                            aria-hidden="true"></i></a>
-                                                                    <a class="entry"><i class="fa fa-heart-o"
-                                                                            aria-hidden="true"></i></a>
-                                                                </div>
-                                                                <div class="preview">
-                                                                    <div class="swiper-container" data-loop="1">
-                                                                        <div class="swiper-button-prev style-1"></div>
-                                                                        <div class="swiper-button-next style-1"></div>
-                                                                        <div class="swiper-wrapper">
-                                                                            <div class="swiper-slide">
-                                                                                <img src="img/product-60.jpg" alt="" />
-                                                                            </div>
-                                                                            <div class="swiper-slide">
-                                                                                <img src="{{ env('APP_ASSET') }}assets/img/product-61.jpg"
-                                                                                    alt="" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="content-animate">
-                                                                    <div class="title">
-                                                                        <div class="shortcode-rate-wrapper">
-                                                                            <div class="rate-wrapper align-inline">
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star-o"
-                                                                                    aria-hidden="true"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="h6 animate-to-green"><a
-                                                                                href="product.html">modern beat nine</a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="description">
-                                                                        <div class="simple-article text size-2">Mollis
-                                                                            nec consequat at In feugiat molestie tortor
-                                                                            a malesuada</div>
-                                                                    </div>
-                                                                    <div class="price">
-                                                                        <div class="simple-article size-4 dark">$630.00
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="preview-buttons">
-                                                                    <div class="buttons-wrapper">
-                                                                        <a class="button size-2 style-2"
-                                                                            href="product.html">
-                                                                            <span class="button-wrapper">
-                                                                                <span class="icon"><img
-                                                                                        src="{{ env('APP_ASSET') }}assets/img/icon-1.png"
-                                                                                        alt=""></span>
-                                                                                <span class="text">Learn More</span>
-                                                                            </span>
-                                                                        </a>
-                                                                        <a class="button size-2 style-3" href="#">
-                                                                            <span class="button-wrapper">
-                                                                                <span class="icon"><img
-                                                                                        src="{{ env('APP_ASSET') }}assets/img/icon-3.png"
-                                                                                        alt=""></span>
-                                                                                <span class="text">Add To Cart</span>
-                                                                            </span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                           
                                         </li>
-                                        <li>
-                                            <a href="services1.html">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog3.html">blog</a>
-                                            <div class="menu-toggle"></div>
-                                            <ul>
-                                                <li>
-                                                    <a href="blog3.html">Blog Landing Pages</a>
-                                                    <div class="menu-toggle"></div>
-                                                    <ul>
-                                                        <li><a href="blog3.html">Blog Landing 1</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="blogdetail1.html">Blog Detail Pages</a>
-                                                    <div class="menu-toggle"></div>
-                                                    <ul>
-                                                        <li><a href="blogdetail1.html">Blog Detail 1</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="gallery1.html">gallery</a>
-                                            <div class="menu-toggle"></div>
-                                            <ul>
-                                                <li><a href="gallery1.html">Gallery 1</a></li>
-                                                <li><a href="gallery2.html">Gallery 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="megamenu-wrapper">
-                                            <a href="#">Pages</a>
-                                            <div class="menu-toggle"></div>
-                                            <div class="megamenu">
-                                                <div class="links">
-                                                    <a class="active" href="checkout1.html">Checkout 1</a>
-                                                    <a href="checkout2.html">Checkout 2</a>
-                                                    <a href="cart.html">Cart</a>
-                                                    <a href="elements.html">Elements</a>
-                                                </div>
-                                                <div class="content">
-                                                    <div class="row nopadding">
-                                                        <div class="col-xs-6">
-                                                            <div class="product-shortcode style-5">
-                                                                <div class="product-label green">best price</div>
-                                                                <div class="icons">
-                                                                    <a class="entry"><i class="fa fa-check"
-                                                                            aria-hidden="true"></i></a>
-                                                                    <a class="entry open-popup" data-rel="3"><i
-                                                                            class="fa fa-eye"
-                                                                            aria-hidden="true"></i></a>
-                                                                    <a class="entry"><i class="fa fa-heart-o"
-                                                                            aria-hidden="true"></i></a>
-                                                                </div>
-                                                                <div class="preview">
-                                                                    <div class="swiper-container" data-loop="1">
-                                                                        <div class="swiper-button-prev style-1"></div>
-                                                                        <div class="swiper-button-next style-1"></div>
-                                                                        <div class="swiper-wrapper">
-                                                                            <div class="swiper-slide">
-                                                                                <img src="{{ env('APP_ASSET') }}assets/img/product-61.jpg"
-                                                                                    alt="" />
-                                                                            </div>
-                                                                            <div class="swiper-slide">
-                                                                                <img src="{{ env('APP_ASSET') }}assets/img/product-59.jpg"
-                                                                                    alt="" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="content-animate">
-                                                                    <div class="title">
-                                                                        <div class="shortcode-rate-wrapper">
-                                                                            <div class="rate-wrapper align-inline">
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star"
-                                                                                    aria-hidden="true"></i>
-                                                                                <i class="fa fa-star-o"
-                                                                                    aria-hidden="true"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="h6 animate-to-green"><a
-                                                                                href="product.html">modern beat nine</a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="description">
-                                                                        <div class="simple-article text size-2">Mollis
-                                                                            nec consequat at In feugiat molestie tortor
-                                                                            a malesuada</div>
-                                                                    </div>
-                                                                    <div class="price">
-                                                                        <div class="simple-article size-4 dark">$630.00
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="preview-buttons">
-                                                                    <div class="buttons-wrapper">
-                                                                        <a class="button size-2 style-2"
-                                                                            href="product.html">
-                                                                            <span class="button-wrapper">
-                                                                                <span class="icon"><img
-                                                                                        src="{{ env('APP_ASSET') }}assets/img/icon-1.png"
-                                                                                        alt=""></span>
-                                                                                <span class="text">Learn More</span>
-                                                                            </span>
-                                                                        </a>
-                                                                        <a class="button size-2 style-3" href="#">
-                                                                            <span class="button-wrapper">
-                                                                                <span class="icon"><img
-                                                                                        src="{{ env('APP_ASSET') }}assets/img/icon-3.png"
-                                                                                        alt=""></span>
-                                                                                <span class="text">Add To Cart</span>
-                                                                            </span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xs-6">
-                                                            <div class="banner-shortcode style-3 rounded-image text-center"
-                                                                style="background-image: url(img/background-11.jpg);">
-                                                                <div class="valign-middle-cell">
-                                                                    <div class="valign-middle-content">
-                                                                        <div
-                                                                            class="simple-article size-5 light transparent uppercase col-xs-b5">
-                                                                            <span class="color">30%</span>DISCOUNT</div>
-                                                                        <h3 class="h3 light col-xs-b15">all models from
-                                                                            relax seriece</h3>
-                                                                        <div
-                                                                            class="simple-article size-3 light transparent col-xs-b30">
-                                                                            Vivamus in tempor eros. Phasellus rhoncus in
-                                                                            nunc sit amet mattis. Integer in ipsum
-                                                                            vestibulum, molestie arcu ac</div>
-                                                                        <a class="button size-2 style-1" href="#">
-                                                                            <span class="button-wrapper">
-                                                                                <span class="icon"><img
-                                                                                        src="{{ env('APP_ASSET') }}assets/img/icon-1.png"
-                                                                                        alt=""></span>
-                                                                                <span class="text">learn more</span>
-                                                                            </span>
-                                                                        </a>
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
+                                    
+                                        
+                                       
+                                       
+                                        <li><a href="contact1.html">contact</a></li>
+                                                                   
+                                      
                                     <li><a href="{{route('contacts_sprite')}}">contact</a></li>
                                     </ul>
                                     <div class="navigation-title">
@@ -606,8 +272,9 @@
                         <div class="col-sm-6 col-md-3 col-xs-b30 col-md-b0">
                             <img src="{{ env('APP_ASSET') }}assets/img/logo-1.png" alt="" />
                             <div class="empty-space col-xs-b20"></div>
-                            <div class="simple-article size-2 light fulltransparent">Integer posuere orci sit amet
-                                feugiat pellent que. Suspendisse vel tempor justo, sit amet posuere orci dapibus auctor
+                            <div class="simple-article size-2 light fulltransparent">บริษัท โอพี คาเมร่า  จำกัด (มหาชน)
+                                115/1 ถนนสวัสดิการ 1 แขวงหนองแขม
+                                เขตหนองแขม กรุงเทพฯ 10160
                             </div>
                             <div class="empty-space col-xs-b20"></div>
                             <div class="footer-contact"><i class="fa fa-mobile" aria-hidden="true"></i> contact us: <a
@@ -639,48 +306,21 @@
                             </div>
                         </div>
                         <div class="clear visible-sm"></div>
-                        <div class="col-sm-6 col-md-3 col-xs-b30 col-sm-b0">
-                            <h6 class="h6 light">some posts</h6>
-                            <div class="empty-space col-xs-b20"></div>
-                            <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="{{ env('APP_ASSET') }}assets/img/thumbnail-1.jpg"
-                                        alt="" /></a>
-                                <div class="description">
-                                    <div class="date">apr 07 / 15</div>
-                                    <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
-                                </div>
-                            </div>
-                            <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="{{ env('APP_ASSET') }}assets/img/thumbnail-2.jpg"
-                                        alt="" /></a>
-                                <div class="description">
-                                    <div class="date">apr 07 / 15</div>
-                                    <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
-                                </div>
-                            </div>
-                            <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="{{ env('APP_ASSET') }}assets/img/thumbnail-3.jpg"
-                                        alt="" /></a>
-                                <div class="description">
-                                    <div class="date">apr 07 / 15</div>
-                                    <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
-                                </div>
-                            </div>
+                   
+                        <div class="follow">
+                            <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
                         </div>
-                       
                 </div>
                 <div class="footer-bottom">
                     <div class="row">
                         <div class="col-lg-8 col-xs-text-center col-lg-text-left col-xs-b20 col-lg-b0">
                             <div class="copyright">&copy; Copyright by oat&sprite <a
                              </div>
-                            <div class="follow">
-                                <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
-                                <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
-                                <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
-                                <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
-                                <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
+                           
                         </div>
                        
                             </div>
@@ -784,6 +424,9 @@
 
     <!-- styled select -->
     <script src="{{ env('APP_ASSET') }}assets/js/jquery.sumoselect.min.js"></script>
+   <!-- MAP -->
+   <script src="https://maps.googleapis.com/maps/api/js"></script>
+   <script src="{{ env('APP_ASSET') }}assets/js/map.js"></script>
 
     <!-- counter -->
     <script src="{{ env('APP_ASSET') }}assets/js/jquery.classycountdown.js"></script>
