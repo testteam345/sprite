@@ -206,13 +206,7 @@
                                             <div class="menu-toggle"></div>
                                            
                                         </li>
-                                    
-                                        
-                                       
-                                       
                                         <li><a href="contact1.html">contact</a></li>
-                                                                   
-                                      
                                     <li><a href="{{route('contacts_sprite')}}">contact</a></li>
                                     </ul>
                                     <div class="navigation-title">
