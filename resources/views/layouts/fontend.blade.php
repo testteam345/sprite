@@ -57,9 +57,13 @@
                         </div>
                         <div class="col-md-7 col-md-text-right">
                             @if(Session::has('user_id'))
-                            <div class="entry"><b>{{ Session::get('name') }}</b></div>
+                            <div class="entry language"><b>{{ Session::get('name') }}</b>
+                                <div class="language-toggle header-toggle-animation">
+                                        <a href="{{ url('/logout') }}">log out</a>
+                                    </div>
+                            </div>
                             @else
-                                <div class="entry"><a class="open-popup" data-rel="1"><b>login</b></a>&nbsp; or &nbsp;<a
+                            <div class="entry"><a class="open-popup" data-rel="1"><b>login</b></a>&nbsp; or &nbsp;<a
                                     class="open-popup" data-rel="2"><b>register</b></a></div>
                             @endif
                             <div class="entry language">
@@ -78,12 +82,12 @@
                                     <b class="hidden-xs">Your bag</b>
                                     <span class="cart-icon">
                                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                                        <span class="cart-label">5</span>
+                                        <span class="cart-label" id="in_cart_label">5</span>
                                     </span>
                                     <span class="cart-title hidden-xs">$1195.00</span>
                                 </a>
                                 <div class="cart-toggle hidden-xs hidden-sm">
-                                    <div class="cart-overflow">
+                                    <div class="cart-overflow" id="list_cart">
                                         <div class="cart-entry clearfix">
                                             <a class="cart-entry-thumbnail" href="#"><img
                                                     src="{{ env('APP_ASSET') }}assets/img/product-1.png" alt="" /></a>
@@ -162,7 +166,7 @@
                                         <div class="col-xs-6">
                                             <div class="cell-view empty-space col-xs-b50">
                                                 <div class="simple-article size-5 grey">TOTAL <span
-                                                        class="color">$1195.00</span></div>
+                                                        class="color" id="total_price">$1195.00</span></div>
                                             </div>
                                         </div>
                                         <div class="col-xs-6 text-right">
@@ -220,7 +224,7 @@
                                             <div class="megamenu">
                                                 <div class="links">
                                                     <a class="active" href="{{route('pro_all')}}">Products Landing 1</a>
-                                                    
+
                                                 </div>
                                                 <div class="content">
                                                     <div class="row nopadding">
@@ -593,6 +597,7 @@
 
         @yield('contents')
 
+
         <!-- FOOTER -->
         <footer>
             <div class="container">
@@ -713,298 +718,62 @@
                                 <span class="button-wrapper" onclick="singIn()">
                                     <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png"
                                             alt="" /></span>
-                                    <span class="text" >submit</span>
+                                    <span class="text">submit</span>
                                 </span>
                             </a>
                         </div>
                     </div>
-        </div>
-        <div class="button-close"></div>
-    </div>
-    </div>
-
-    <div class="popup-content" data-rel="2">
-        <div class="layer-close"></div>
-        <div class="popup-container size-1">
-            <div class="popup-align">
-                <h3 class="h3 text-center">register</h3>
-                <div class="empty-space col-xs-b30"></div>
-                <input class="simple-input" type="text" id="re_pwd" name="re_pwd" value="" placeholder="Your name" />
-                <div class="empty-space col-xs-b30"></div>
-                <input class="simple-input" type="text" id="re_username" name="re_username" value="" placeholder="Your fullname" />
-                <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <input class="simple-input" type="text" value="" placeholder="Your email" id="re_email" name="re_email" />
-                <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <input class="simple-input" type="password" value="" id="re_pwdc" id="re_pwdc"  placeholder="Enter password" />
-                <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <input class="simple-input" type="password" value="" id="re_pwdc" placeholder="Repeat password" />
-                <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                <div class="row">
-                    <div class="col-sm-7 col-xs-b10 col-sm-b0">
-                        <div class="empty-space col-sm-b15"></div>
-                        <label class="checkbox-entry">
-                            <input type="checkbox" /><span><a href="#">Privacy policy agreement</a></span>
-                        </label>
-                    </div>
-                    <div class="col-sm-5 text-right">
-                        <a class="button size-2 style-3" href="#">
-                            <span class="button-wrapper" id="btn_register" onclick="register_user()">
-                                <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png"
-                                        alt="" /></span>
-                                <span class="text">submit</span>
-                            </span>
-                        </a>
-                    </div>
                 </div>
-                {{-- <div class="popup-or">
-                          <span>or</span>
-                      </div>
-                      <div class="row m5">
-                          <div class="col-sm-4 col-xs-b10 col-sm-b0">
-                              <a class="button facebook-button size-2 style-4 block" href="#">
-                                  <span class="button-wrapper">
-                                      <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt=""
-                /></span>
-                <span class="text">facebook</span>
-                </span>
-                </a>
+                <div class="button-close"></div>
             </div>
-            <div class="col-sm-4 col-xs-b10 col-sm-b0">
-                <a class="button twitter-button size-2 style-4 block" href="#">
-                    <span class="button-wrapper">
-                        <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt="" /></span>
-                        <span class="text">twitter</span>
-                    </span>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a class="button google-button size-2 style-4 block" href="#">
-                    <span class="button-wrapper">
-                        <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png" alt="" /></span>
-                        <span class="text">google+</span>
-                    </span>
-                </a>
-            </div>
-        </div> --}}
-    </div>
-    <div class="button-close"></div>
-    </div>
-    </div>
+        </div>
 
-    <div class="popup-content" data-rel="3">
-        <div class="layer-close"></div>
-        <div class="popup-container size-2">
-            <div class="popup-align">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-b30 col-sm-b0">
-                        <div class="main-product-slider-wrapper swipers-couple-wrapper">
-                            <div class="swiper-container swiper-control-top">
-                                <div class="swiper-button-prev hidden"></div>
-                                <div class="swiper-button-next hidden"></div>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="swiper-lazy-preloader"></div>
-                                        <div class="product-big-preview-entry swiper-lazy"
-                                            data-background="img/product-preview-4.jpg"></div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper-lazy-preloader"></div>
-                                        <div class="product-big-preview-entry swiper-lazy"
-                                            data-background="img/product-preview-5.jpg"></div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper-lazy-preloader"></div>
-                                        <div class="product-big-preview-entry swiper-lazy"
-                                            data-background="img/product-preview-6.jpg"></div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper-lazy-preloader"></div>
-                                        <div class="product-big-preview-entry swiper-lazy"
-                                            data-background="img/product-preview-7.jpg"></div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper-lazy-preloader"></div>
-                                        <div class="product-big-preview-entry swiper-lazy"
-                                            data-background="img/product-preview-8.jpg"></div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper-lazy-preloader"></div>
-                                        <div class="product-big-preview-entry swiper-lazy"
-                                            data-background="img/product-preview-9.jpg"></div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="swiper-lazy-preloader"></div>
-                                        <div class="product-big-preview-entry swiper-lazy"
-                                            data-background="img/product-preview-10.jpg"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="empty-space col-xs-b30 col-sm-b60"></div>
-
-                            <div class="swiper-container swiper-control-bottom" data-breakpoints="1" data-xs-slides="3"
-                                data-sm-slides="3" data-md-slides="4" data-lt-slides="5" data-slides-per-view="5"
-                                data-center="1" data-click="1">
-                                <div class="swiper-button-prev hidden"></div>
-                                <div class="swiper-button-next hidden"></div>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="product-small-preview-entry">
-                                            <img src="{{ env('APP_ASSET') }}assets/img/product-preview-4_.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="product-small-preview-entry">
-                                            <img src="{{ env('APP_ASSET') }}assets/img/product-preview-5_.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="product-small-preview-entry">
-                                            <img src="{{ env('APP_ASSET') }}assets/img/product-preview-6_.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="product-small-preview-entry">
-                                            <img src="{{ env('APP_ASSET') }}assets/img/product-preview-7_.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="product-small-preview-entry">
-                                            <img src="{{ env('APP_ASSET') }}assets/img/product-preview-8_.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="product-small-preview-entry">
-                                            <img src="{{ env('APP_ASSET') }}assets/img/product-preview-9_.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="product-small-preview-entry">
-                                            <img src="{{ env('APP_ASSET') }}assets/img/product-preview-10_.jpg"
-                                                alt="" />
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+        <div class="popup-content" data-rel="2">
+            <div class="layer-close"></div>
+            <div class="popup-container size-1">
+                <div class="popup-align">
+                    <h3 class="h3 text-center">register</h3>
+                    <div class="empty-space col-xs-b30"></div>
+                    <input class="simple-input" type="text" id="re_pwd" name="re_pwd" value=""
+                        placeholder="Your name" />
+                    <div class="empty-space col-xs-b30"></div>
+                    <input class="simple-input" type="text" id="re_username" name="re_username" value=""
+                        placeholder="Your fullname" />
+                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                    <input class="simple-input" type="text" value="" placeholder="Your email" id="re_email"
+                        name="re_email" />
+                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                    <input class="simple-input" type="password" value="" id="re_pwdc" id="re_pwdc"
+                        placeholder="Enter password" />
+                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                    <input class="simple-input" type="password" value="" id="re_pwdc" placeholder="Repeat password" />
+                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                    <div class="row">
+                        <div class="col-sm-7 col-xs-b10 col-sm-b0">
+                            <div class="empty-space col-sm-b15"></div>
+                            <label class="checkbox-entry">
+                                <input type="checkbox" /><span><a href="#">Privacy policy agreement</a></span>
+                            </label>
                         </div>
-
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="simple-article size-3 grey col-xs-b5">SMART WATCHES</div>
-                        <div class="h3 col-xs-b25">watch 42mm smartwatch</div>
-                        <div class="row col-xs-b25">
-                            <div class="col-sm-6">
-                                <div class="simple-article size-5 grey">PRICE: <span class="color">$225.00</span></div>
-                            </div>
-                            <div class="col-sm-6 col-sm-text-right">
-                                <div class="rate-wrapper align-inline">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                </div>
-                                <div class="simple-article size-2 align-inline">128 Reviews</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="simple-article size-3 col-xs-b5">ITEM NO.: <span
-                                        class="grey">127-#5238</span></div>
-                            </div>
-                            <div class="col-sm-6 col-sm-text-right">
-                                <div class="simple-article size-3 col-xs-b20">AVAILABLE.: <span class="grey">YES</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="simple-article size-3 col-xs-b30">Vivamus in tempor eros. Phasellus rhoncus in nunc
-                            sit amet mattis. Integer in ipsum vestibulum, molestie arcu ac, efficitur tellus. Phasellus
-                            id vulputate erat.</div>
-                        <div class="row col-xs-b40">
-                            <div class="col-sm-3">
-                                <div class="h6 detail-data-title size-1">size:</div>
-                            </div>
-                            <div class="col-sm-9">
-                                <select class="SlectBox">
-                                    <option disabled="disabled" selected="selected">Choose size</option>
-                                    <option value="volvo">Volvo</option>
-                                    <option value="saab">Saab</option>
-                                    <option value="mercedes">Mercedes</option>
-                                    <option value="audi">Audi</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row col-xs-b40">
-                            <div class="col-sm-3">
-                                <div class="h6 detail-data-title">color:</div>
-                            </div>
-                            <div class="col-sm-9">
-                                <div class="color-selection size-1">
-                                    <div class="entry active" style="color: #a7f050;"></div>
-                                    <div class="entry" style="color: #50e3f0;"></div>
-                                    <div class="entry" style="color: #eee;"></div>
-                                    <div class="entry" style="color: #4d900c;"></div>
-                                    <div class="entry" style="color: #edb82c;"></div>
-                                    <div class="entry" style="color: #7d3f99;"></div>
-                                    <div class="entry" style="color: #3481c7;"></div>
-                                    <div class="entry" style="color: #bf584b;"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row col-xs-b40">
-                            <div class="col-sm-3">
-                                <div class="h6 detail-data-title size-1">quantity:</div>
-                            </div>
-                            <div class="col-sm-9">
-                                <div class="quantity-select">
-                                    <span class="minus"></span>
-                                    <span class="number">1</span>
-                                    <span class="plus"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m5 col-xs-b40">
-                            <div class="col-sm-6 col-xs-b10 col-sm-b0">
-                                <a class="button size-2 style-2 block" href="#">
-                                    <span class="button-wrapper">
-                                        <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-2.png"
-                                                alt=""></span>
-                                        <span class="text">add to cart</span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="col-sm-6">
-                                <a class="button size-2 style-1 block noshadow" href="#">
-                                    <span class="button-wrapper">
-                                        <span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
-                                        <span class="text">add to favourites</span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="h6 detail-data-title size-2">share:</div>
-                            </div>
-                            <div class="col-sm-9">
-                                <div class="follow light">
-                                    <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
-                                    <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
-                                    <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
+                        <div class="col-sm-5 text-right">
+                            <a class="button size-2 style-3" href="#">
+                                <span class="button-wrapper" id="btn_register" onclick="register_user()">
+                                    <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png"
+                                            alt="" /></span>
+                                    <span class="text">submit</span>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <div class="button-close"></div>
             </div>
-            <div class="button-close"></div>
         </div>
-    </div>
+
+        @yield('pup-up')
 
     </div>
+
 
     {{-- @yield('contents') --}}
 
@@ -1053,26 +822,37 @@
                     let str = '',
                         total = 0;
                     for (let i = 0; i < len; i++) {
-                        str += '<li>';
-                        str += '<a href="#" title="" class="cart-product-image"><img';
-                        str += '             src="' + path + 'images/product_img/' + data.cart_list[i]
-                            .pro_img + '" alt="Product"></a>';
-                        str += '     <div class="text">';
-                        str += '         <p class="product-name">' + data.cart_list[i].pro_name + '</p>';
-                        str += '         <p class="product-price">' + data.cart_list[i]
-                            .cart_qty + ' x ฿' + data.cart_list[i].pro_price + '</p>';
-                        str += '     </div>';
-                        str += '     <a href="#" onclick="delete_cart(' + data.cart_list[i].cart_id +
-                            ')" class="delete-item">';
-                        str += '         <i class="zmdi zmdi-close-circle-o"></i>';
-                        str += '     </a>';
-                        str += ' </li>';
-                        total += parseFloat(data.cart_list[i].pro_price) * parseInt(data.cart_list[i]
+                        sub_total = 0;
+                        sub_total += parseFloat(data.cart_list[i].pro_price) * parseInt(data.cart_list[i]
                             .cart_qty)
+                        total += sub_total;
+                        str +='<div class="cart-entry clearfix">'
+                        str +='<a class="cart-entry-thumbnail" href="#"><img width="85px"'
+                        str +=' src="' + path + 'images/product_img/' + data.cart_list[i].pro_img + '" alt="" /></a>'
+                        str +='<div class="cart-entry-description">'
+                        str +='<table>'
+                        str +='<tr>'
+                        str +='<td>'
+                        str +='<div class="h6"><a href="#">' + data.cart_list[i].pro_name + '</a></div>'
+                        str +='<div class="simple-article size-1">QUANTITY: ' + data.cart_list[i].cart_qty + '</div>'
+                        str +='</td>'
+                        str +='<td>'
+                        str +='<div class="simple-article size-3 grey">฿' + data.cart_list[i].pro_price + '</div>'
+                        str +='<div class="simple-article size-1">TOTAL: ฿' + sub_total + '</div>'
+                        str +='</td>'
+                       
+                        str +='<td>'
+                        str +='<div class="button-close" onclick="delete_cart(' + data.cart_list[i].cart_id +')" ></div>'
+                        str +='</td>'
+                        str +='</tr>'
+                        str +='</table>'
+                        str +='</div>'
+                        str +='</div>'
+                       
                     }
                     $('#list_cart').html(str)
                     $('#in_cart_label').html(len)
-                    $('#total_price').html('<span>Total cost</span> ฿' + total.toFixed(2))
+                    $('#total_price').html('฿' + total.toFixed(2))
                 },
                 error: (error) => {
                     console.log(error)
@@ -1142,7 +922,7 @@
                         $('#div_re_pwd').addClass('has-success');
                         $('#help_re_pwd').html('')
                         $('#btn_register').prop("disabled", false);
-                         $('#btn_register').attr('onclick', "register_user()");
+                        $('#btn_register').attr('onclick', "register_user()");
                     } else {
                         $('#re_pwd').removeClass('success_use');
                         $('#re_pwd').addClass('error_use');
