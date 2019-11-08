@@ -606,8 +606,9 @@
                         <div class="col-sm-6 col-md-3 col-xs-b30 col-md-b0">
                             <img src="{{ env('APP_ASSET') }}assets/img/logo-1.png" alt="" />
                             <div class="empty-space col-xs-b20"></div>
-                            <div class="simple-article size-2 light fulltransparent">Integer posuere orci sit amet
-                                feugiat pellent que. Suspendisse vel tempor justo, sit amet posuere orci dapibus auctor
+                            <div class="simple-article size-2 light fulltransparent">บริษัท โอพี คาเมร่า  จำกัด (มหาชน)
+                                115/1 ถนนสวัสดิการ 1 แขวงหนองแขม
+                                เขตหนองแขม กรุงเทพฯ 10160
                             </div>
                             <div class="empty-space col-xs-b20"></div>
                             <div class="footer-contact"><i class="fa fa-mobile" aria-hidden="true"></i> contact us: <a
