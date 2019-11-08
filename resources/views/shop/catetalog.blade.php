@@ -6,9 +6,8 @@
     <div class="empty-space col-xs-b15 col-sm-b30"></div>
     <div class="breadcrumbs">
         <a href="#">home</a>
-        <a href="#">accessories</a>
-        <a href="#">gadgets</a>
-        <a href="#">sport gadgets</a>
+        <a href="#">products</a>
+       
     </div>
     <div class="empty-space col-xs-b15 col-sm-b50 col-md-b100"></div>
     <div class="row">
@@ -138,11 +137,6 @@
                                     </div>
                                 </div>
                                 <div class="price">
-                                    <div class="color-selection">
-                                        <div class="entry active" style="color: #a7f050;"></div>
-                                        <div class="entry" style="color: #50e3f0;"></div>
-                                        <div class="entry" style="color: #eee;"></div>
-                                    </div>
                                     <div class="simple-article size-4"><span
                                             class="color">฿{{$product->pro_price}}</span></div>
                                 </div>
