@@ -2,15 +2,15 @@
 @section('contents')
 
 
-<div class="block-entry fixed-background" style="background-image: url(img/background-24.jpg);">
+<div class="block-entry fixed-background" style="background-image: url(img/Cc1.png);">
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
                 <div class="cell-view simple-banner-height text-center">
                     <div class="empty-space col-xs-b35 col-sm-b70"></div>
-                    <h1 class="h1 light">we are exzo</h1>
-                    <div class="title-underline center"><span></span></div>
-                    <div class="simple-article light transparent size-4">In feugiat molestie tortor a malesuada. Etiam a venenatis ipsum. Proin pharetra elit at feugiat commodo vel placerat tincidunt sapien nec</div>
+                    
+                   
+                    
                     <div class="empty-space col-xs-b35 col-sm-b70"></div>
                 </div>
             </div>
@@ -27,60 +27,24 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-slide-active" style="width: 360px; margin-right: 30px;">
                     <div class="icon-description-shortcode style-2">
-                        <img class="image-icon image-thumbnail rounded-image" src="img/thumbnail-35.jpg" alt="">
+                        <img class="image-icon image-thumbnail rounded-image" src="img/oat.jpg" alt="">
                         <div class="content">
-                            <h6 class="title h6">Phasellus rhoncus in nunc sit</h6>
-                            <div class="description simple-article size-2">Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula</div>
+                            <h3 class="title h3">นายสิทธิโชค ชุ่มใจ</h3>
+                            <div class="description simple-article size-3"><b> เลขที 41 ปวส.2/3 สาขาวิชา คอมพิวเตอร์ธุรกิจ วิทยาลัยเทคโนโลยีอรรถวิทย์พณิชยการ</b></div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide swiper-slide-next" style="width: 360px; margin-right: 30px;">
                     <div class="icon-description-shortcode style-2">
-                        <img class="image-icon image-thumbnail rounded-image" src="img/thumbnail-36.jpg" alt="">
+                        <img class="image-icon image-thumbnail rounded-image" src="img/sprite.jpg" alt="">
                         <div class="content">
-                            <h6 class="title h6">amet mattis molestie nec tortor quis</h6>
-                            <div class="description simple-article size-2">Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" style="width: 360px; margin-right: 30px;">
-                    <div class="icon-description-shortcode style-2">
-                        <img class="image-icon image-thumbnail rounded-image" src="img/thumbnail-37.jpg" alt="">
-                        <div class="content">
-                            <h6 class="title h6">molestie nec tortor quis</h6>
-                            <div class="description simple-article size-2">Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" style="width: 360px; margin-right: 30px;">
-                    <div class="icon-description-shortcode style-2">
-                        <img class="image-icon image-thumbnail rounded-image" src="img/thumbnail-35.jpg" alt="">
-                        <div class="content">
-                            <h6 class="title h6">Phasellus rhoncus in nunc sit</h6>
-                            <div class="description simple-article size-2">Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" style="width: 360px; margin-right: 30px;">
-                    <div class="icon-description-shortcode style-2">
-                        <img class="image-icon image-thumbnail rounded-image" src="img/thumbnail-36.jpg" alt="">
-                        <div class="content">
-                            <h6 class="title h6">amet mattis molestie nec tortor quis</h6>
-                            <div class="description simple-article size-2">Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" style="width: 360px; margin-right: 30px;">
-                    <div class="icon-description-shortcode style-2">
-                        <img class="image-icon image-thumbnail rounded-image" src="img/thumbnail-37.jpg" alt="">
-                        <div class="content">
-                            <h6 class="title h6">molestie nec tortor quis</h6>
-                            <div class="description simple-article size-2">Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula</div>
+                            <h3 class="title h3">นายฐิติวัฒน์ คงมีสิทธิ์</h3>
+                            <div class="description simple-article size-3"><b> เลขที 37 ปวส.2/3 สาขาวิชา คอมพิวเตอร์ธุรกิจ วิทยาลัยเทคโนโลยีอรรถวิทย์พณิชยการ</b></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination relative-pagination swiper-pagination-swiper-unique-id-3 swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+            
         </div>
     </div>
 </div>
