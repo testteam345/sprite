@@ -234,12 +234,12 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-                                        <form>
+                                    <form action="{{route('pro_all')}}" method="get">
                                             <div class="search-submit">
                                                 <i class="fa fa-search" aria-hidden="true"></i>
                                                 <input type="submit" />
                                             </div>
-                                            <input class="simple-input style-1" type="text" value=""
+                                            <input class="simple-input style-1" type="text" name="pro_name" value=""
                                                 placeholder="Enter keyword" />
                                         </form>
                                     </div>

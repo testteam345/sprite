@@ -43,6 +43,10 @@ class ProductRepository
                 }
             }
 
+            if(isset($input['pro_name'])&&$input['pro_name']!=''){
+                $pro = $pro->where('tbl_products.pro_name','like','%'.$input['pro_name'].'%');
+            }
+
             $pro = $pro->where('active',$active)
             ->leftjoin('tbl_categories','tbl_categories.cate_id','tbl_products.cate_id')
             ->paginate(16);
