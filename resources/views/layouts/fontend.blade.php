@@ -321,7 +321,7 @@
                                                     <h3 class="h3 text-center">Log in</h3>
                                                     <div class="empty-space col-xs-b30"></div>
                                                     <input class="simple-input" type="text" id="username"
-                                                        name="username" value="" placeholder="Your email" />
+                                                        name="username" value="" placeholder="Your username" />
                                                     <div class="empty-space col-xs-b10 col-sm-b20"></div>
                                                     <input class="simple-input" type="password" id="pwd" value=""
                                                         name="pwd" placeholder="Enter password" />
