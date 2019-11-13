@@ -51,8 +51,7 @@
                 <div class="content-margins">
                     <div class="row">
                         <div class="col-md-5 hidden-xs hidden-sm">
-                            <div class="entry"><b>contact us:</b> <a href="tel:+35235551238745">+3 (523) 555 123
-                                    8745</a></div>
+                            
                             <div class="entry"><b>email:</b> <a href="mailto:office@exzo.com">OP@gmail.com</a></div>
                         </div>
                         <div class="col-md-7 col-md-text-right">
@@ -161,7 +160,7 @@
                                             </div>
                                         </div>
                                         <div class="col-xs-6 text-right">
-                                            <a class="button size-2 style-3" href="checkout1.html">
+                                            <a class="button size-2 style-3" href="{{route('update_cart_status')}}">
                                                 <span class="button-wrapper">
                                                     <span class="icon"><img
                                                             src="{{ env('APP_ASSET') }}assets/img/icon-4.png"
@@ -284,11 +283,10 @@
                             <div class="footer-column-links">
                                 <div class="row">
                                     <div class="col-xs-6">
-                                        <a href="#">home</a>
-                                        <a href="#">about us</a>
-                                        <a href="#">products</a>
-
-                                        <a href="#">contact</a>
+                                     <a href="{{url('/')}}">Home</a>
+                                     <a href="{{route('about_us_pae')}}">about us</a>
+                                     <a href="{{route('pro_all')}}">products</a>
+                                     <li><a href="{{route('contacts_sprite')}}">contact</a></li>
                                     </div>
                                     <div class="col-xs-6">
 

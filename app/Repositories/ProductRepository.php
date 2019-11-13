@@ -144,22 +144,22 @@ class ProductRepository
         ->where('tbl_cart.status',1)
         ->where('tbl_cart.user_id',Session::get('user_id'))
         ->where('tbl_cart.pro_id',$pro_id)
-        ->get();
+        ->get();    //เช็คสินค้า
         $qty = isset($input_data['qty'])&&$input_data['qty']!=''?$input_data['qty']:1;
         if(count($num)>0){
             $obj_update = array(
-                'cart_qty' => $num[0]->cart_qty+$qty,
+                'cart_qty' => $num[0]->cart_qty+$qty, //เพิ่มขึ้นอีก1ชิ้น
             );
-           return $this->Cart_model->where('cart_id',$num[0]->cart_id)->update($obj_update);
+           return $this->Cart_model->where('cart_id',$num[0]->cart_id)->update($obj_update); //ส่งกลับคอนโทเลอร์
         }else{
             $obj_insert = array(
                 'pro_id'=>$pro_id,
                 'user_id'=>Session::get('user_id'),
                 'status'=>1,
                 'type'=>1,
-                'cart_qty'=>$qty
+                'cart_qty'=>$qty   
             );
-            return $this->Cart_model->insert($obj_insert);
+            return $this->Cart_model->insert($obj_insert); //ถ้าไม่มีสินค้าจะอินเสริตสินค้าเพิ่มอีก
         }
     }
 

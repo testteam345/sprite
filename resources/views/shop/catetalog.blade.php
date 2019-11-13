@@ -19,7 +19,7 @@
                     <div class="swiper-slide">
                         <div class="banner-shortcode style-1">
                             <div class="background"
-                                style="background-image: url({{ env('APP_ASSET') }}img/thumbnail-14.jpg);"></div>
+                                style="background-image: url({{ env('APP_ASSET') }}img/BC2.jpg);"></div>
                             <div class="description valign-middle">
                                 
                                 <div class="empty-space col-xs-b60 col-sm-b0"></div>
@@ -90,6 +90,7 @@
                                                     <span class="text">Learn More</span>
                                                 </span>
                                             </a>
+                                            
                                             @if (Session::has('user_id'))
                                             <a class="button size-2 style-3" href="#" onclick="add_item_to_cart({{$product->pro_id}})">
                                             @else
