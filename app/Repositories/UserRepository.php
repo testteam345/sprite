@@ -43,6 +43,7 @@ class UserRepository
             Session::put('re_me',$re_me);
             Session::put('name',$get_login[0]->name);
             Session::put('email',$get_login[0]->user_email);
+            Session::put('address',$get_login[0]->address);
             if(Session::has('pro_id')){
                 $input = array(
                     'pro_id'=>Session::get('pro_id')
@@ -58,7 +59,7 @@ class UserRepository
         }
     }
 
-    public function get_register($name,$email,$username,$password) {
+    public function get_register($name,$email,$username,$password,$address) {
         $re_name = $name;
         $re_email = $email;
         $re_user = $username;
@@ -78,6 +79,7 @@ class UserRepository
             $get_regis->username = $re_user;
             $get_regis->password = $re_pass;
             $get_regis->user_email = $re_email;
+            $get_regis->address = $address;
             $get_regis->create_date = now();
             $get_regis->update_date = now();
             $get_regis->save();
@@ -85,6 +87,7 @@ class UserRepository
             if($get_regis){
                 Session::put('user_id',$get_regis->id);
                 Session::put('name',$get_regis->name);
+                Session::put('address',$get_regis->address);
                 if(Session::has('pro_id')){
                     $input = array(
                         'pro_id'=>Session::get('pro_id')

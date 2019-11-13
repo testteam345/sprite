@@ -20,7 +20,7 @@
     <link href="{{ env('APP_ASSET') }}assets/css/sumoselect.css" rel="stylesheet" type="text/css" />
     <link href="{{ env('APP_ASSET') }}assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-    
+
 
     <title>OP camera</title>
 
@@ -59,15 +59,15 @@
                             @if(Session::has('user_id'))
                             <div class="entry language"><b>{{ Session::get('name') }}</b>
                                 <div class="language-toggle header-toggle-animation">
-                                        <a href="{{ url('/logout') }}">log out</a>
-                                    </div>
+                                    <a href="{{ url('/logout') }}">log out</a>
+                                </div>
                             </div>
                             @else
                             <div class="entry"><a class="open-popup" data-rel="1"><b>login</b></a>&nbsp; or &nbsp;<a
                                     class="open-popup" data-rel="2"><b>register</b></a></div>
                             @endif
-                            
-                           
+
+
                             <div class="entry hidden-xs hidden-sm cart">
                                 <a href="{{route('cart')}}">
                                     <b class="hidden-xs">Your bag</b>
@@ -156,8 +156,8 @@
                                     <div class="row">
                                         <div class="col-xs-6">
                                             <div class="cell-view empty-space col-xs-b50">
-                                                <div class="simple-article size-5 grey">TOTAL <span
-                                                        class="color" id="total_price">$1195.00</span></div>
+                                                <div class="simple-article size-5 grey">TOTAL <span class="color"
+                                                        id="total_price">$1195.00</span></div>
                                             </div>
                                         </div>
                                         <div class="col-xs-6 text-right">
@@ -196,18 +196,18 @@
                                     <ul>
                                         <li class="active">
                                             <a href="{{url('/')}}">Home</a>
-                                           
+
                                         </li>
                                         <li>
-                                        <a href="{{route('about_us_pae')}}">about us</a>
+                                            <a href="{{route('about_us_pae')}}">about us</a>
                                         </li>
                                         <li class="megamenu-wrapper">
                                             <a href="{{route('pro_all')}}">products</a>
                                             <div class="menu-toggle"></div>
-                                           
+
                                         </li>
-                                        
-                                    <li><a href="{{route('contacts_sprite')}}">contact</a></li>
+
+                                        <li><a href="{{route('contacts_sprite')}}">contact</a></li>
                                     </ul>
                                     <div class="navigation-title">
                                         Navigation
@@ -234,7 +234,7 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-                                    <form action="{{route('pro_all')}}" method="get">
+                                        <form action="{{route('pro_all')}}" method="get">
                                             <div class="search-submit">
                                                 <i class="fa fa-search" aria-hidden="true"></i>
                                                 <input type="submit" />
@@ -266,7 +266,7 @@
                         <div class="col-sm-6 col-md-3 col-xs-b30 col-md-b0">
                             <img src="{{ env('APP_ASSET') }}assets/img/icon-29.png" alt="" />
                             <div class="empty-space col-xs-b20"></div>
-                            <div class="simple-article size-2 light fulltransparent">บริษัท โอพี คาเมร่า  จำกัด (มหาชน)
+                            <div class="simple-article size-2 light fulltransparent">บริษัท โอพี คาเมร่า จำกัด (มหาชน)
                                 115/1 ถนนสวัสดิการ 1 แขวงหนองแขม
                                 เขตหนองแขม กรุงเทพฯ 10160
                             </div>
@@ -287,20 +287,20 @@
                                         <a href="#">home</a>
                                         <a href="#">about us</a>
                                         <a href="#">products</a>
-                                   
+
                                         <a href="#">contact</a>
                                     </div>
                                     <div class="col-xs-6">
-                                       
+
                                         <a href="#">login</a>
                                         <a href="#">registration</a>
-                                    
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="clear visible-sm"></div>
-                   
+
                         <div class="follow">
                             <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
                             <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
@@ -308,417 +308,407 @@
                             <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
                             <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
                         </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="row">
-                        <div class="col-lg-8 col-xs-text-center col-lg-text-left col-xs-b20 col-lg-b0">
-                            <div class="copyright">&copy; Copyright by oat&sprite <a
-                             </div>
-                           
-                        </div>
-                       
-                            </div>
-                        </div>
                     </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+                    <div class="footer-bottom">
+                        <div class="row">
+                            <div class="col-lg-8 col-xs-text-center col-lg-text-left col-xs-b20 col-lg-b0">
+                                <div class="copyright">&copy; Copyright by oat&sprite <a </div> </div> </div> </div>
+                                        </div> </div> </div> </footer> </div> <div class="popup-wrapper">
+                                        <div class="bg-layer"></div>
 
-    <div class="popup-wrapper">
-        <div class="bg-layer"></div>
+                                        <div class="popup-content" data-rel="1">
+                                            <div class="layer-close"></div>
+                                            <div class="popup-container size-1">
+                                                <div class="popup-align">
+                                                    <h3 class="h3 text-center">Log in</h3>
+                                                    <div class="empty-space col-xs-b30"></div>
+                                                    <input class="simple-input" type="text" id="username"
+                                                        name="username" value="" placeholder="Your email" />
+                                                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                                                    <input class="simple-input" type="password" id="pwd" value=""
+                                                        name="pwd" placeholder="Enter password" />
+                                                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-xs-b10 col-sm-b0">
+                                                            <div class="empty-space col-sm-b5"></div>
+                                                            <a class="simple-link">Forgot password?</a>
+                                                            <div class="empty-space col-xs-b5"></div>
+                                                            <a class="simple-link">register now</a>
+                                                        </div>
+                                                        <div class="col-sm-6 text-right">
+                                                            <a class="button size-2 style-3" href="#">
+                                                                <span class="button-wrapper" onclick="singIn()">
+                                                                    <span class="icon"><img
+                                                                            src="{{ env('APP_ASSET') }}assets/img/icon-4.png"
+                                                                            alt="" /></span>
+                                                                    <span class="text">submit</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="button-close"></div>
+                                            </div>
+                                        </div>
+                                        <div class="popup-content" data-rel="2">
+                                            <div class="layer-close"></div>
+                                            <div class="popup-container size-1">
+                                                <div class="popup-align">
+                                                    <h3 class="h3 text-center">register</h3>
+                                                    <div class="empty-space col-xs-b30"></div>
+                                                    <input class="simple-input" type="text" id="re_pwd" name="re_pwd"
+                                                        value="" placeholder="Your name" />
+                                                    <div class="empty-space col-xs-b30"></div>
+                                                    <input class="simple-input" type="text" id="re_username"
+                                                        name="re_username" value="" placeholder="Your fullname" />
+                                                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                                                    <input class="simple-input" type="text" value=""
+                                                        placeholder="Your email" id="re_email" name="re_email" />
+                                                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                                                    <input class="simple-input" type="password" value="" id="re_pwdc"
+                                                        id="re_pwdc" placeholder="Enter password" />
+                                                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                                                    <input class="simple-input" type="password" value="" id="re_pwdc"
+                                                        placeholder="Repeat password" />
+                                                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
 
-        <div class="popup-content" data-rel="1">
-            <div class="layer-close"></div>
-            <div class="popup-container size-1">
-                <div class="popup-align">
-                    <h3 class="h3 text-center">Log in</h3>
-                    <div class="empty-space col-xs-b30"></div>
-                    <input class="simple-input" type="text" id="username" name="username" value=""
-                        placeholder="Your email" />
-                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                    <input class="simple-input" type="password" id="pwd" value="" name="pwd"
-                        placeholder="Enter password" />
-                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                    <div class="row">
-                        <div class="col-sm-6 col-xs-b10 col-sm-b0">
-                            <div class="empty-space col-sm-b5"></div>
-                            <a class="simple-link">Forgot password?</a>
-                            <div class="empty-space col-xs-b5"></div>
-                            <a class="simple-link">register now</a>
-                        </div>
-                        <div class="col-sm-6 text-right">
-                            <a class="button size-2 style-3" href="#">
-                                <span class="button-wrapper" onclick="singIn()">
-                                    <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png"
-                                            alt="" /></span>
-                                    <span class="text">submit</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="button-close"></div>
-            </div>
-        </div>
+                                                    <textarea name="" class="simple-input" id="address" placeholder="Address"></textarea>
+                                                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
 
-        <div class="popup-content" data-rel="2">
-            <div class="layer-close"></div>
-            <div class="popup-container size-1">
-                <div class="popup-align">
-                    <h3 class="h3 text-center">register</h3>
-                    <div class="empty-space col-xs-b30"></div>
-                    <input class="simple-input" type="text" id="re_pwd" name="re_pwd" value=""
-                        placeholder="Your name" />
-                    <div class="empty-space col-xs-b30"></div>
-                    <input class="simple-input" type="text" id="re_username" name="re_username" value=""
-                        placeholder="Your fullname" />
-                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                    <input class="simple-input" type="text" value="" placeholder="Your email" id="re_email"
-                        name="re_email" />
-                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                    <input class="simple-input" type="password" value="" id="re_pwdc" id="re_pwdc"
-                        placeholder="Enter password" />
-                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                    <input class="simple-input" type="password" value="" id="re_pwdc" placeholder="Repeat password" />
-                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
-                    <div class="row">
-                        <div class="col-sm-7 col-xs-b10 col-sm-b0">
-                            <div class="empty-space col-sm-b15"></div>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span><a href="#">Privacy policy agreement</a></span>
-                            </label>
-                        </div>
-                        <div class="col-sm-5 text-right">
-                            <a class="button size-2 style-3" href="#">
-                                <span class="button-wrapper" id="btn_register" onclick="register_user()">
-                                    <span class="icon"><img src="{{ env('APP_ASSET') }}assets/img/icon-4.png"
-                                            alt="" /></span>
-                                    <span class="text">submit</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="button-close"></div>
-            </div>
-        </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-7 col-xs-b10 col-sm-b0">
+                                                            <div class="empty-space col-sm-b15"></div>
+                                                            <label class="checkbox-entry">
+                                                                <input type="checkbox" /><span><a href="#">Privacy
+                                                                        policy agreement</a></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-sm-5 text-right">
+                                                            <a class="button size-2 style-3" href="#">
+                                                                <span class="button-wrapper" id="btn_register"
+                                                                    onclick="register_user()">
+                                                                    <span class="icon"><img
+                                                                            src="{{ env('APP_ASSET') }}assets/img/icon-4.png"
+                                                                            alt="" /></span>
+                                                                    <span class="text">submit</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="button-close"></div>
+                                            </div>
+                                        </div>
+                                        @yield('pup-up')
+                                </div>
+                                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+                                <script src="{{ env('APP_ASSET') }}assets/js/jquery-2.2.4.min.js"></script>
+                                <script src="{{ env('APP_ASSET') }}assets/js/swiper.jquery.min.js"></script>
+                                <script src="{{ env('APP_ASSET') }}assets/js/global.js"></script>
 
-        @yield('pup-up')
+                                <!-- styled select -->
+                                <script src="{{ env('APP_ASSET') }}assets/js/jquery.sumoselect.min.js"></script>
+                                <!-- MAP -->
+                                <script src="https://maps.googleapis.com/maps/api/js"></script>
+                                <script src="{{ env('APP_ASSET') }}assets/js/map.js"></script>
 
-    </div>
+                                <!-- counter -->
+                                <script src="{{ env('APP_ASSET') }}assets/js/jquery.classycountdown.js"></script>
+                                <script src="{{ env('APP_ASSET') }}assets/js/jquery.knob.js"></script>
+                                <script src="{{ env('APP_ASSET') }}assets/js/jquery.throttle.js"></script>
+                                <script type="text/javascript">
+                                    $.ajaxSetup({
+                                        headers: {
+                                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                                        }
+                                    });
 
+                                </script>
 
-    {{-- @yield('contents') --}}
+                                <script>
+                                    $(() => {
+                                        load_list_cart();
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-    <script src="{{ env('APP_ASSET') }}assets/js/jquery-2.2.4.min.js"></script>
-    <script src="{{ env('APP_ASSET') }}assets/js/swiper.jquery.min.js"></script>
-    <script src="{{ env('APP_ASSET') }}assets/js/global.js"></script>
+                                        $("#pwd").keypress(function (e) {
+                                            if (e.which == 13) {
+                                                singIn()
+                                            }
+                                        });
 
-    <!-- styled select -->
-    <script src="{{ env('APP_ASSET') }}assets/js/jquery.sumoselect.min.js"></script>
-   <!-- MAP -->
-   <script src="https://maps.googleapis.com/maps/api/js"></script>
-   <script src="{{ env('APP_ASSET') }}assets/js/map.js"></script>
+                                    });
 
-    <!-- counter -->
-    <script src="{{ env('APP_ASSET') }}assets/js/jquery.classycountdown.js"></script>
-    <script src="{{ env('APP_ASSET') }}assets/js/jquery.knob.js"></script>
-    <script src="{{ env('APP_ASSET') }}assets/js/jquery.throttle.js"></script>
-    <script type="text/javascript">
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
+                                    function load_list_cart() {
+                                        $.ajax({
+                                            type: "post",
+                                            url: "{{route('get_cart_list')}}",
+                                            dataType: "json",
+                                            success: (data) => {
+                                                console.log(data)
+                                                let path = "{{ env('APP_ASSET') }}"
+                                                let len = data.cart_list.length
+                                                let str = '',
+                                                    total = 0;
+                                                for (let i = 0; i < len; i++) {
+                                                    sub_total = 0;
+                                                    sub_total += parseFloat(data.cart_list[i].pro_price) *
+                                                        parseInt(data.cart_list[i]
+                                                            .cart_qty)
+                                                    total += sub_total;
+                                                    str += '<div class="cart-entry clearfix">'
+                                                    str +=
+                                                        '<a class="cart-entry-thumbnail" href="#"><img width="85px"'
+                                                    str += ' src="' + path + 'images/product_img/' + data
+                                                        .cart_list[i].pro_img + '" alt="" /></a>'
+                                                    str += '<div class="cart-entry-description">'
+                                                    str += '<table>'
+                                                    str += '<tr>'
+                                                    str += '<td>'
+                                                    str += '<div class="h6"><a href="#">' + data.cart_list[
+                                                        i].pro_name + '</a></div>'
+                                                    str += '<div class="simple-article size-1">QUANTITY: ' +
+                                                        data.cart_list[i].cart_qty + '</div>'
+                                                    str += '</td>'
+                                                    str += '<td>'
+                                                    str += '<div class="simple-article size-3 grey">฿' +
+                                                        data.cart_list[i].pro_price + '</div>'
+                                                    str += '<div class="simple-article size-1">TOTAL: ฿' +
+                                                        sub_total + '</div>'
+                                                    str += '</td>'
 
-    </script>
+                                                    str += '<td>'
+                                                    str +=
+                                                        '<div class="button-close" onclick="delete_cart(' +
+                                                        data.cart_list[i].cart_id + ')" ></div>'
+                                                    str += '</td>'
+                                                    str += '</tr>'
+                                                    str += '</table>'
+                                                    str += '</div>'
+                                                    str += '</div>'
 
-    <script>
-        $(() => {
-            load_list_cart();
+                                                }
+                                                $('#list_cart').html(str)
+                                                $('#in_cart_label').html(len)
+                                                $('#total_price').html('฿' + total.toFixed(2))
+                                                $('#total_price2').html('฿' + total.toFixed(2))
+                                            },
+                                            error: (error) => {
+                                                console.log(error)
+                                            }
+                                        });
+                                    }
 
-            $("#pwd").keypress(function (e) {
-                if (e.which == 13) {
-                    singIn()
-                }
-            });
+                                    function singIn() {
 
-        });
+                                        if ($('#username').val() == '') {
+                                            feed_error('Username is null !');
+                                            return;
+                                        }
 
-        function load_list_cart() {
-            $.ajax({
-                type: "post",
-                url: "{{route('get_cart_list')}}",
-                dataType: "json",
-                success: (data) => {
-                    console.log(data)
-                    let path = "{{ env('APP_ASSET') }}"
-                    let len = data.cart_list.length
-                    let str = '',
-                        total = 0;
-                    for (let i = 0; i < len; i++) {
-                        sub_total = 0;
-                        sub_total += parseFloat(data.cart_list[i].pro_price) * parseInt(data.cart_list[i]
-                            .cart_qty)
-                        total += sub_total;
-                        str +='<div class="cart-entry clearfix">'
-                        str +='<a class="cart-entry-thumbnail" href="#"><img width="85px"'
-                        str +=' src="' + path + 'images/product_img/' + data.cart_list[i].pro_img + '" alt="" /></a>'
-                        str +='<div class="cart-entry-description">'
-                        str +='<table>'
-                        str +='<tr>'
-                        str +='<td>'
-                        str +='<div class="h6"><a href="#">' + data.cart_list[i].pro_name + '</a></div>'
-                        str +='<div class="simple-article size-1">QUANTITY: ' + data.cart_list[i].cart_qty + '</div>'
-                        str +='</td>'
-                        str +='<td>'
-                        str +='<div class="simple-article size-3 grey">฿' + data.cart_list[i].pro_price + '</div>'
-                        str +='<div class="simple-article size-1">TOTAL: ฿' + sub_total + '</div>'
-                        str +='</td>'
-                       
-                        str +='<td>'
-                        str +='<div class="button-close" onclick="delete_cart(' + data.cart_list[i].cart_id +')" ></div>'
-                        str +='</td>'
-                        str +='</tr>'
-                        str +='</table>'
-                        str +='</div>'
-                        str +='</div>'
-                       
-                    }
-                    $('#list_cart').html(str)
-                    $('#in_cart_label').html(len)
-                    $('#total_price').html('฿' + total.toFixed(2))
-                    $('#total_price2').html('฿' + total.toFixed(2))
-                },
-                error: (error) => {
-                    console.log(error)
-                }
-            });
-        }
+                                        if ($('#pwd').val() == '') {
+                                            feed_error('Password is null !');
+                                            return;
+                                        }
+                                        let re_me = 0
+                                        if ($('#remember_me').prop("checked") == true) {
+                                            re_me = 1;
+                                        } else {
+                                            re_me = 0;
+                                        }
+                                        console.log(re_me)
+                                        let data = {
+                                            username: $('#username').val(),
+                                            password: $('#pwd').val(),
+                                            re_me: re_me
+                                        }
+                                        $.post("{{ url('/getuser') }}", data,
+                                            (data, textStatus, jqXHR) => {
+                                                if (data.status === true) {
+                                                    location.href = "{{ url('/') }}"
+                                                } else {
+                                                    str = 'Username or password incorrect';
+                                                    $('#pwd').val('')
+                                                    feed_error(str);
+                                                }
+                                            },
+                                            "json"
+                                        );
+                                    }
+                                    $('#re_pwdc').keyup(function (e) {
+                                        $(this).passtrength({
+                                            tooltip: true,
+                                            textWeak: "Weak",
+                                            textMedium: "Medium",
+                                            textStrong: "Strong",
+                                            textVeryStrong: "Very Strong",
+                                            eyeImg: "{{ env('APP_ASSET') }}assets/images/eye.svg",
+                                            passwordToggle: false,
+                                        });
+                                    });
 
-        function singIn() {
+                                    $('#re_pwd').keyup(function (e) {
+                                        let data = {
+                                            username: $(this).val(),
+                                        }
+                                        $.post("{{ url('/check_username') }}", data,
+                                            function (data, textStatus, jqXHR) {
+                                                console.log(data)
+                                                if (data.status == true) {
+                                                    $('#re_pwd').removeClass('error_use');
+                                                    $('#re_pwd').addClass('success_use');
+                                                    $('#div_re_pwd').removeClass('has-error');
+                                                    $('#div_re_pwd').addClass('has-success');
+                                                    $('#help_re_pwd').html('')
+                                                    $('#btn_register').prop("disabled", false);
+                                                    $('#btn_register').attr('onclick', "register_user()");
+                                                } else {
+                                                    $('#re_pwd').removeClass('success_use');
+                                                    $('#re_pwd').addClass('error_use');
+                                                    $('#div_re_pwd').removeClass('has-success');
+                                                    $('#div_re_pwd').addClass('has-error');
+                                                    $('#help_re_pwd').html('Username already!')
+                                                    $('#btn_register').prop("disabled", true);
+                                                    $('#btn_register').removeAttr('onclick');
+                                                }
+                                            },
+                                            "json"
+                                        );
+                                    })
 
-            if ($('#username').val() == '') {
-                feed_error('Username is null !');
-                return;
-            }
+                                    $('#re_email').keyup(function (e) {
+                                        let data = {
+                                            email: $(this).val(),
+                                        }
+                                        $.post("{{ url('/check_email') }}", data,
+                                            function (data, textStatus, jqXHR) {
+                                                console.log(data)
+                                                if (data.status == true) {
+                                                    $('#re_email').removeClass('error_use');
+                                                    $('#re_email').addClass('success_use');
+                                                    $('#div_re_email').removeClass('has-error');
+                                                    $('#div_re_email').addClass('has-success');
+                                                    $('#help_re_email').html('')
+                                                    $('#btn_register').prop("disabled", false);
 
-            if ($('#pwd').val() == '') {
-                feed_error('Password is null !');
-                return;
-            }
-            let re_me = 0
-            if ($('#remember_me').prop("checked") == true) {
-                re_me = 1;
-            } else {
-                re_me = 0;
-            }
-            console.log(re_me)
-            let data = {
-                username: $('#username').val(),
-                password: $('#pwd').val(),
-                re_me: re_me
-            }
-            $.post("{{ url('/getuser') }}", data,
-                (data, textStatus, jqXHR) => {
-                    if (data.status === true) {
-                        location.href = "{{ url('/') }}"
-                    } else {
-                        str = 'Username or password incorrect';
-                        $('#pwd').val('')
-                        feed_error(str);
-                    }
-                },
-                "json"
-            );
-        }
-        $('#re_pwdc').keyup(function (e) {
-            $(this).passtrength({
-                tooltip: true,
-                textWeak: "Weak",
-                textMedium: "Medium",
-                textStrong: "Strong",
-                textVeryStrong: "Very Strong",
-                eyeImg: "{{ env('APP_ASSET') }}assets/images/eye.svg",
-                passwordToggle: false,
-            });
-        });
+                                                } else {
+                                                    $('#re_email').removeClass('success_use');
+                                                    $('#re_email').addClass('error_use');
+                                                    $('#div_re_email').removeClass('has-success');
+                                                    $('#div_re_email').addClass('has-error');
+                                                    $('#help_re_email').html('E-mail already!')
+                                                    $('#btn_register').prop("disabled", true);
+                                                }
+                                            },
+                                            "json"
+                                        );
+                                    })
 
-        $('#re_pwd').keyup(function (e) {
-            let data = {
-                username: $(this).val(),
-            }
-            $.post("{{ url('/check_username') }}", data,
-                function (data, textStatus, jqXHR) {
-                    console.log(data)
-                    if (data.status == true) {
-                        $('#re_pwd').removeClass('error_use');
-                        $('#re_pwd').addClass('success_use');
-                        $('#div_re_pwd').removeClass('has-error');
-                        $('#div_re_pwd').addClass('has-success');
-                        $('#help_re_pwd').html('')
-                        $('#btn_register').prop("disabled", false);
-                        $('#btn_register').attr('onclick', "register_user()");
-                    } else {
-                        $('#re_pwd').removeClass('success_use');
-                        $('#re_pwd').addClass('error_use');
-                        $('#div_re_pwd').removeClass('has-success');
-                        $('#div_re_pwd').addClass('has-error');
-                        $('#help_re_pwd').html('Username already!')
-                        $('#btn_register').prop("disabled", true);
-                        $('#btn_register').removeAttr('onclick');
-                    }
-                },
-                "json"
-            );
-        })
+                                    function alert_s() {
+                                        Swal.fire({
+                                            position: 'top-end',
+                                            type: 'success',
+                                            title: 'Add product to cart success',
+                                            showConfirmButton: false,
+                                            timer: 1500
+                                        })
+                                    }
 
-        $('#re_email').keyup(function (e) {
-            let data = {
-                email: $(this).val(),
-            }
-            $.post("{{ url('/check_email') }}", data,
-                function (data, textStatus, jqXHR) {
-                    console.log(data)
-                    if (data.status == true) {
-                        $('#re_email').removeClass('error_use');
-                        $('#re_email').addClass('success_use');
-                        $('#div_re_email').removeClass('has-error');
-                        $('#div_re_email').addClass('has-success');
-                        $('#help_re_email').html('')
-                        $('#btn_register').prop("disabled", false);
+                                    function register_user() {
+                                        let data = {
+                                            name: $('#re_username').val(),
+                                            email: $('#re_email').val(),
+                                            username: $('#re_pwd').val(),
+                                            password: $('#re_pwdc').val(),
+                                            address: $('#address')val(),
+                                        }
+                                        if (data.name === '') {
+                                            feed_error_re('Name is null!')
+                                            return;
+                                        }
 
-                    } else {
-                        $('#re_email').removeClass('success_use');
-                        $('#re_email').addClass('error_use');
-                        $('#div_re_email').removeClass('has-success');
-                        $('#div_re_email').addClass('has-error');
-                        $('#help_re_email').html('E-mail already!')
-                        $('#btn_register').prop("disabled", true);
-                    }
-                },
-                "json"
-            );
-        })
+                                        if (data.email === '') {
+                                            feed_error_re('E-mail is null!')
+                                            return;
+                                        }
 
-        function alert_s() {
-            Swal.fire({
-                position: 'top-end',
-                type: 'success',
-                title: 'Add product to cart success',
-                showConfirmButton: false,
-                timer: 1500
-            })
-        }
+                                        if (data.username === '') {
+                                            feed_error_re('Username is null!')
+                                            return;
+                                        }
 
-        function register_user() {
-            let data = {
-                name: $('#re_username').val(),
-                email: $('#re_email').val(),
-                username: $('#re_pwd').val(),
-                password: $('#re_pwdc').val(),
-            }
-            if (data.name === '') {
-                feed_error_re('Name is null!')
-                return;
-            }
+                                        if (data.password === '') {
+                                            feed_error_re('Password is null!')
+                                            return;
+                                        }
 
-            if (data.email === '') {
-                feed_error_re('E-mail is null!')
-                return;
-            }
+                                        if (data.password.length < 8) {
+                                            feed_error_re('Password min 8 !')
+                                            return;
+                                        }
+                                        $.post("{{ url('/getregister') }}", data,
+                                            (data, textStatus, jqXHR) => {
+                                                if (data.status === true) {
+                                                    location.href = "{{ url('/') }}"
+                                                } else {
+                                                    str = 'something went wrong';
+                                                    // $('#pwd').val('')
+                                                    feed_error_re(str);
+                                                }
+                                            },
+                                            "json"
+                                        );
+                                    }
 
-            if (data.username === '') {
-                feed_error_re('Username is null!')
-                return;
-            }
-
-            if (data.password === '') {
-                feed_error_re('Password is null!')
-                return;
-            }
-
-            if (data.password.length < 8) {
-                feed_error_re('Password min 8 !')
-                return;
-            }
-            $.post("{{ url('/getregister') }}", data,
-                (data, textStatus, jqXHR) => {
-                    if (data.status === true) {
-                        location.href = "{{ url('/') }}"
-                    } else {
-                        str = 'something went wrong';
-                        // $('#pwd').val('')
-                        feed_error_re(str);
-                    }
-                },
-                "json"
-            );
-        }
-
-        function feed_error(str) {
+                                    function feed_error(str) {
 
 
-            Swal.fire({
-                type: 'error',
-                title: 'Oops...',
-                text: str,
-            })
+                                        Swal.fire({
+                                            type: 'error',
+                                            title: 'Oops...',
+                                            text: str,
+                                        })
 
-            // str = '<div class="alert alert-danger" role="alert">' + str + '</div>';
-            // $('#feed_back_info').show();
-            // $('#feed_back_info').html(str);
-            // setTimeout(() => {
-            //         $('#feed_back_info').fadeOut(1500);
-            //     }, 1500)
-            //     ('#feed_back_info').html('');
-            // $('#feed_back_info').hide();
-            // $('#feed_back_info').fadein(1500);
+                                    }
 
-        }
+                                    function feed_error_re(str) {
+                                        Swal.fire({
+                                            type: 'error',
+                                            title: 'Oops...',
+                                            text: str,
+                                        })
 
-        function feed_error_re(str) {
-            Swal.fire({
-                type: 'error',
-                title: 'Oops...',
-                text: str,
-            })
+                                    }
 
-        }
+                                    function delete_cart(id) {
+                                        let data = {
+                                            id: id
+                                        }
+                                        $.post("{{route('delete_cart')}}", data,
+                                            (data, textStatus, jqXHR) => {
+                                                console.log(data)
+                                                load_list_cart()
+                                                get_data_cart_list()
+                                            },
+                                            "json"
+                                        );
+                                    }
 
-        function delete_cart(id) {
-            let data = {
-                id: id
-            }
-            $.post("{{route('delete_cart')}}", data,
-                (data, textStatus, jqXHR) => {
-                    console.log(data)
-                    load_list_cart()
-                    get_data_cart_list()
-                },
-                "json"
-            );
-        }
+                                    function swich_modal(data) {
+                                        if (data === 0) {
+                                            $('#sing_in').modal('toggle')
+                                            setTimeout(() => {
+                                                $('#register_modal').modal('toggle')
+                                            }, 500)
+                                        } else {
+                                            $('#register_modal').modal('toggle')
+                                            setTimeout(() => {
+                                                $('#sing_in').modal('toggle')
+                                            }, 500)
+                                        }
 
-        function swich_modal(data) {
-            if (data === 0) {
-                $('#sing_in').modal('toggle')
-                setTimeout(() => {
-                    $('#register_modal').modal('toggle')
-                }, 500)
-            } else {
-                $('#register_modal').modal('toggle')
-                setTimeout(() => {
-                    $('#sing_in').modal('toggle')
-                }, 500)
-            }
+                                    }
 
-        }
-
-    </script>
-    @yield('javascript')
+                                </script>
+                                @yield('javascript')
 
 </body>
 

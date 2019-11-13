@@ -45,10 +45,11 @@ class UserController extends Controller
     public function register(Request $request) {
         $name = $request->name;
         $email = $request->email;
+        $address = $request->address;
         $username = $request->username;
         $password = $request->password;
 
-        $status = $this->UserRepository->get_register($name,$email,$username,$password);
+        $status = $this->UserRepository->get_register($name,$email,$username,$password,$address);
 
         // if($Register != "False"){
         //     return redirect('/');
