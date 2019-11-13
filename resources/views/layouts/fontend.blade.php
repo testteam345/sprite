@@ -616,7 +616,7 @@
                                             email: $('#re_email').val(),
                                             username: $('#re_pwd').val(),
                                             password: $('#re_pwdc').val(),
-                                            address: $('#address')val(),
+                                            address: $('#address').val(),
                                         }
                                         if (data.name === '') {
                                             feed_error_re('Name is null!')
