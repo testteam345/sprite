@@ -75,7 +75,7 @@
                                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                                         <span class="cart-label" id="in_cart_label">5</span>
                                     </span>
-                                    <span class="cart-title hidden-xs">$1195.00</span>
+                                    <span class="cart-title hidden-xs">00</span>
                                 </a>
                                 <div class="cart-toggle hidden-xs hidden-sm">
                                     <div class="cart-overflow" id="list_cart">
@@ -303,48 +303,21 @@
                             </div>
                         </div>
                         <div class="clear visible-sm"></div>
-                        <div class="col-sm-6 col-md-3 col-xs-b30 col-sm-b0">
-                            <h6 class="h6 light">some posts</h6>
-                            <div class="empty-space col-xs-b20"></div>
-                            <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="{{ env('APP_ASSET') }}assets/img/thumbnail-1.jpg"
-                                        alt="" /></a>
-                                <div class="description">
-                                    <div class="date">apr 07 / 15</div>
-                                    <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
-                                </div>
-                            </div>
-                            <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="{{ env('APP_ASSET') }}assets/img/thumbnail-2.jpg"
-                                        alt="" /></a>
-                                <div class="description">
-                                    <div class="date">apr 07 / 15</div>
-                                    <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
-                                </div>
-                            </div>
-                            <div class="footer-post-preview clearfix">
-                                <a class="image" href="#"><img src="{{ env('APP_ASSET') }}assets/img/thumbnail-3.jpg"
-                                        alt="" /></a>
-                                <div class="description">
-                                    <div class="date">apr 07 / 15</div>
-                                    <a class="title">Fusce tincidunt accumsan pretium sit amet</a>
-                                </div>
-                            </div>
+                   
+                        <div class="follow">
+                            <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
+                            <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
                         </div>
-                       
                 </div>
                 <div class="footer-bottom">
                     <div class="row">
                         <div class="col-lg-8 col-xs-text-center col-lg-text-left col-xs-b20 col-lg-b0">
                             <div class="copyright">&copy; Copyright by oat&sprite <a
                              </div>
-                            <div class="follow">
-                                <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
-                                <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
-                                <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
-                                <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
-                                <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
+                           
                         </div>
                        
                             </div>
