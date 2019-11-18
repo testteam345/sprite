@@ -195,7 +195,7 @@
                                 <nav>
                                     <ul>
                                         <li class="active">
-                                            <a href="index1.html">Home</a>
+                                            <a href="{{url('/')}}">Home</a>
                                            
                                         </li>
                                         <li>
@@ -206,7 +206,7 @@
                                             <div class="menu-toggle"></div>
                                            
                                         </li>
-                                        <li><a href="contact1.html">contact</a></li>
+                                        
                                     <li><a href="{{route('contacts_sprite')}}">contact</a></li>
                                     </ul>
                                     <div class="navigation-title">
@@ -264,7 +264,7 @@
                 <div class="footer-top">
                     <div class="row">
                         <div class="col-sm-6 col-md-3 col-xs-b30 col-md-b0">
-                            <img src="{{ env('APP_ASSET') }}assets/img/logo-1.png" alt="" />
+                            <img src="{{ env('APP_ASSET') }}assets/img/icon-29.png" alt="" />
                             <div class="empty-space col-xs-b20"></div>
                             <div class="simple-article size-2 light fulltransparent">บริษัท โอพี คาเมร่า  จำกัด (มหาชน)
                                 115/1 ถนนสวัสดิการ 1 แขวงหนองแขม

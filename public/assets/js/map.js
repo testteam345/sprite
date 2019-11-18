@@ -1,6 +1,6 @@
 $(function() {
 
-	var marker = [], infowindow = [], map, image = 'img/icon-29.png';
+	var marker = [], infowindow = [], map, image = 'img/map_img.png';
 
 	function addMarker(location,name,contentstr){
         marker[name] = new google.maps.Marker({
