@@ -20,9 +20,9 @@
     <link href="{{ env('APP_ASSET') }}assets/css/sumoselect.css" rel="stylesheet" type="text/css" />
     <link href="{{ env('APP_ASSET') }}assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-    <link rel="shortcut icon" href="{{ env('APP_ASSET') }}assets/img/favicon.ico" />
+    
 
-    <title>Home Version 3</title>
+    <title>OP camera</title>
 
     <style>
         .success_use {
