@@ -2,15 +2,10 @@
 
 @section('contents')
 
-<div class="breadcrumb">
-        <div class="container">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li class="active">Blog Details</li>
-            </ul>
-        </div>
-        <!-- End container -->
-    </div>
+<div class="empty-space col-xs-b35 col-md-b70"></div>
+<div class="empty-space col-xs-b35 col-md-b70"></div>
+<div class="empty-space col-xs-b35 col-md-b70"></div>
+
 
 <section id="shopcart" class="shop shop-cart">
     <div class="container">
@@ -47,7 +42,7 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr class="cart-product">
-                                <th class="cart-product-item">Product</th>
+                                <th class="cart-product-item" width="30%">Product</th>
                                 <th class="cart-product-item">Product name</th>
                                 <th class="cart-product-price">Price</th>
                                 <th class="cart-product-quantity">Quantity</th>
@@ -113,7 +108,7 @@
                     str += '<tr class="cart-product">'
                     str += '<td class="cart-product-item">'
                     str += '<div class="cart-product-img" width="10%">'
-                    str += '<img src="' + path + 'images/product_img/' + data.cart_list[i].pro_img +
+                    str += '<img width="100%" src="' + path + 'images/product_img/' + data.cart_list[i].pro_img +
                         '" alt="product" style="width: 80%">'
                     str += '</div>'
                     str += '<div class="cart-product-name">'
