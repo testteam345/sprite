@@ -161,7 +161,7 @@
                                             </div>
                                         </div>
                                         <div class="col-xs-6 text-right">
-                                            <a class="button size-2 style-3" href="checkout1.html">
+                                            <a class="button size-2 style-3" href="{{route('update_cart_status')}}">
                                                 <span class="button-wrapper">
                                                     <span class="icon"><img
                                                             src="{{ env('APP_ASSET') }}assets/img/icon-4.png"

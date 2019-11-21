@@ -6,99 +6,126 @@
             <div class="swiper-button-next visible-lg"></div>
             <div class="swiper-container" data-parallax="1" data-auto-height="1">
                <div class="swiper-wrapper">
-                   <div class="swiper-slide" style="background-image: url(img/background-1.jpg);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="cell-view page-height">
-                                        <div class="col-xs-b40 col-sm-b80"></div>
-                                        <div data-swiper-parallax-x="-600">
-                                            <div class="simple-article light transparent size-3">PROFESSIONAL EDITION</div>
-                                            <div class="col-xs-b5"></div>
-                                        </div>
-                                        <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">CANON EOS 6D</h1>
-                                            <div class="title-underline light left"><span></span></div>
-                                        </div>
-                                        <div data-swiper-parallax-x="-400">
-                                            <div class="simple-article size-4 light transparent">
-                                                <p>EOS 6D Mark II กล้อง DSLR แบบฟูลเฟรมในตระกูล EOS ที่มีน้ำหนักเบาที่สุด ครบครันด้วยสุดยอดฟังก์ชั่น พร้อมบอดี้ขนาดกะทะรัดน้ำหนักเบา ที่จะช่วยยกระดับภาพถ่ายของคุณไปอีกขั้น ด้วยเซ็นเซอร์ภาพความละเอียด 26.2 ล้านพิกเซล เทคโนโลยีออโต้โฟกัส Dual Pixel CMOS AF และหน้าจอแอลซีดีทัชสกรีนปรับได้หลายทิศทาง ช่วยให้ได้ภาพสวยน่าประทับใจทั้งภาพนิ่งและวิดีโอ </p>
-                                                <ul>
-                                                    <li>เซ็นเซอร์ภาพ CMOS แบบฟูลเฟรม ความละเอียด 26.2 ล้านพิกเซล</li>
-                                                    <li>เทคโนโลยี Dual Pixel CMOS AF</li>
-                                                    <li>ความไวแสง ISO 100 – 40000 (ขยายได้ถึง 102400)</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-b30"></div>
-                                        </div>
-                                        <div data-swiper-parallax-x="-300">
-                                            <div class="buttons-wrapper">
-                                                
-                                                <a class="button size-2 style-1" href="#">
-                                                    
-                                                </a>
-                                                <a class="button size-2 style-2" href="#">
-                                                    
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-b40 col-sm-b80"></div>
+                   <div class="swiper-slide" style="background-image: url(img/BC1.jpg);">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-6 col-sm-text-right">
+                                <div class="cell-view page-height">
+                                    <div class="col-xs-b40 col-sm-b80"></div>
+                                        <div class="col-xs-b30"></div>
                                     </div>
+                                    <div data-swiper-parallax-x="-300">
+                                        <div class="buttons-wrapper">
+                                            
+                                            <a class="button size-2 style-1" href="#">
+                                               
+                                            </a>
+                                            <a class="button size-2 style-2" href="#">
+                                               
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-b40 col-sm-b80"></div>
                                 </div>
                             </div>
-                            <div class="slider-product-preview" data-swiper-parallax-x="-600">
-                                <img src="img/C2.png" alt="" />
-                            </div>
-                            <div class="empty-space col-xs-b80 col-sm-b0"></div>
                         </div>
-                   </div>
-                   <div class="swiper-slide" style="background-image: url(img/background-2.jpg);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6 col-sm-offset-6 col-sm-text-right">
-                                    <div class="cell-view page-height">
-                                        <div class="col-xs-b40 col-sm-b80"></div>
-                                        <div data-swiper-parallax-x="-600">
-                                            <div class="simple-article light transparent size-3">PROFESSIONAL EDITION</div>
-                                            <div class="col-xs-b5"></div>
-                                        </div>
-                                        <div data-swiper-parallax-x="-500">
-                                            <h1 class="h1 light">Canon EOS R Kit 24-105mm</h1>
-                                            <div class="title-underline light left"><span></span></div>
-                                        </div>
-                                        <div data-swiper-parallax-x="-400">
-                                            <div class="simple-article size-4 light transparent">
-                                                <p></p>
-                                                <ul>
-                                                    <li>เซนเซอร์ CMOS ขนาดฟูลเฟรม ความละเอียด 30.3 ล้านพิกเซล</li>
-                                                    <li>โฟกัสภาพเร็วใน 0.05 วินาที</li>
-                                                    <li>ออโต้โฟกัสเลือกได้ 5,655 ตำแหน่ง</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-b30"></div>
-                                        </div>
-                                        <div data-swiper-parallax-x="-300">
-                                            <div class="buttons-wrapper">
-                                                
-                                                <a class="button size-2 style-1" href="#">
-                                                   
-                                                </a>
-                                                <a class="button size-2 style-2" href="#">
-                                                   
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-b40 col-sm-b80"></div>
+                        <div class="empty-space col-xs-b80 col-sm-b0"></div>
+                    </div>
+               </div>
+               <div class="swiper-slide" style="background-image: url(img/background-1.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="cell-view page-height">
+                                <div class="col-xs-b40 col-sm-b80"></div>
+                                <div data-swiper-parallax-x="-600">
+                                    <div class="simple-article light transparent size-3">PROFESSIONAL EDITION</div>
+                                    <div class="col-xs-b5"></div>
+                                </div>
+                                <div data-swiper-parallax-x="-500">
+                                    <h1 class="h1 light">CANON EOS 6D</h1>
+                                    <div class="title-underline light left"><span></span></div>
+                                </div>
+                                <div data-swiper-parallax-x="-400">
+                                    <div class="simple-article size-4 light transparent">
+                                        <p>EOS 6D Mark II กล้อง DSLR แบบฟูลเฟรมในตระกูล EOS ที่มีน้ำหนักเบาที่สุด ครบครันด้วยสุดยอดฟังก์ชั่น พร้อมบอดี้ขนาดกะทะรัดน้ำหนักเบา ที่จะช่วยยกระดับภาพถ่ายของคุณไปอีกขั้น ด้วยเซ็นเซอร์ภาพความละเอียด 26.2 ล้านพิกเซล เทคโนโลยีออโต้โฟกัส Dual Pixel CMOS AF และหน้าจอแอลซีดีทัชสกรีนปรับได้หลายทิศทาง ช่วยให้ได้ภาพสวยน่าประทับใจทั้งภาพนิ่งและวิดีโอ </p>
+                                        <ul>
+                                            <li>เซ็นเซอร์ภาพ CMOS แบบฟูลเฟรม ความละเอียด 26.2 ล้านพิกเซล</li>
+                                            <li>เทคโนโลยี Dual Pixel CMOS AF</li>
+                                            <li>ความไวแสง ISO 100 – 40000 (ขยายได้ถึง 102400)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-b30"></div>
+                                </div>
+                                <div data-swiper-parallax-x="-300">
+                                    <div class="buttons-wrapper">
+                                        
+                                        <a class="button size-2 style-1" href="#">
+                                            
+                                        </a>
+                                        <a class="button size-2 style-2" href="#">
+                                            
+                                        </a>
                                     </div>
                                 </div>
+                                <div class="col-xs-b40 col-sm-b80"></div>
                             </div>
-                            <div class="slider-product-preview align-left" data-swiper-parallax-x="-600">
-                                    <img src="img/C3.png" alt="" />
-                            </div>
-                            <div class="empty-space col-xs-b80 col-sm-b0"></div>
                         </div>
-                   </div>
-             
+                    </div>
+                    <div class="slider-product-preview" data-swiper-parallax-x="-600">
+                        <img src="img/C2.png" alt="" />
+                    </div>
+                    <div class="empty-space col-xs-b80 col-sm-b0"></div>
+                </div>
+           </div>
+           <div class="swiper-slide" style="background-image: url(img/background-2.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-6 col-sm-text-right">
+                            <div class="cell-view page-height">
+                                <div class="col-xs-b40 col-sm-b80"></div>
+                                <div data-swiper-parallax-x="-600">
+                                    <div class="simple-article light transparent size-3">PROFESSIONAL EDITION</div>
+                                    <div class="col-xs-b5"></div>
+                                </div>
+                                <div data-swiper-parallax-x="-500">
+                                    <h1 class="h1 light">Canon EOS R Kit 24-105mm</h1>
+                                    <div class="title-underline light left"><span></span></div>
+                                </div>
+                                <div data-swiper-parallax-x="-400">
+                                    <div class="simple-article size-4 light transparent">
+                                        <p>กล้องมิเรอร์เรสฟูลเฟรมถอดเปลี่ยนเลนส์รุ่นแรกของแคนนอน ที่มาพร้อมช่องมองภาพอิเลกทรอนิกส์ (EVF) ในตัว ด้วยเทคโนโลยีเมาท์เลนส์ใหม่ล่าสุดที่ช่วยให้การสื่อสารระหว่างกล้องและเลนส์ทำได้อย่างรวดเร็ว และแม่นยำ ผสานการทำงานของชิปประมวลผลภาพทรงพลังรุ่นใหม่ DIGIC 8 มาพร้อมกับฟังก์ชั่น Digital Lens Optimiser ในตัวกล้อง รวมถึงระบบป้องกันภาพสั่นไหวแบบ Dual Sensing IS และ Combination IS ซึ่งช่วยชดเชยการสั่นไหวได้มากถึง 5 สต็อป สำหรับภาพนิ่งความละเอียด 30.3 ล้านพิเซล และภาพเคลื่อนไหวความละเอียด 4K UHD
+                                        </p>
+                                        <ul>
+                                            <li>เซนเซอร์ CMOS ขนาดฟูลเฟรม ความละเอียด 30.3 ล้านพิกเซล</li>
+                                            <li>โฟกัสภาพเร็วใน 0.05 วินาที</li>
+                                            <li>ออโต้โฟกัสเลือกได้ 5,655 ตำแหน่ง</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-b30"></div>
+                                </div>
+                                <div data-swiper-parallax-x="-300">
+                                    <div class="buttons-wrapper">
+                                        
+                                        <a class="button size-2 style-1" href="#">
+                                           
+                                        </a>
+                                        <a class="button size-2 style-2" href="#">
+                                           
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-b40 col-sm-b80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-product-preview align-left" data-swiper-parallax-x="-600">
+                            <img src="img/C3.png" alt="" />
+                    </div>
+                    <div class="empty-space col-xs-b80 col-sm-b0"></div>
+                </div>
+           </div>
+
                </div>
                <div class="swiper-pagination swiper-pagination-white"></div>
             </div>
@@ -142,330 +169,6 @@
                 </div>
             </div>
         </div>  --}}
-
-        <div class="slider-wrapper">
-            <div class="swiper-button-prev visible-lg"></div>
-            <div class="swiper-button-next visible-lg"></div>
-         <div class="swiper-container" data-breakpoints="1" data-xs-slides="1" data-sm-slides="2" data-md-slides="2" data-lt-slides="3"  data-slides-per-view="4">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="product-shortcode style-1 big">
-                            
-                            <div class="preview">
-                                <img src="img/N1.jpg" alt="">
-                                <div class="preview-buttons valign-middle">
-                                    <div class="valign-middle-content">
-                                        <a class="button size-2 style-2" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                <span class="text">Learn More</span>
-                                            </span>
-                                        </a>
-                                        <a class="button size-2 style-3" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
-                                                <span class="text">Add To Cart</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Nikon COOLPIX W300</a></div>
-                            </div>
-                            <div class="description">
-                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
-                                <div class="icons">
-                                    <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
-                                    <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                               
-                                <div class="simple-article size-4"><span class="color">฿17,400</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="product-shortcode style-1 big">
-                            
-                            <div class="preview">
-                                <img src="img/Ca1.jpg" alt="">
-                                <div class="preview-buttons valign-middle">
-                                    <div class="valign-middle-content">
-                                        <a class="button size-2 style-2" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                <span class="text">Learn More</span>
-                                            </span>
-                                        </a>
-                                        <a class="button size-2 style-3" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
-                                                <span class="text">Add To Cart</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Canon IXUS 310 HS (Pink)</a></div>
-                            </div>
-                            <div class="description">
-                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
-                                <div class="icons">
-                                    <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
-                                    <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                             
-                                <div class="simple-article size-4"><span class="color">฿8,990</span>&nbsp;&nbsp;&nbsp;</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="product-shortcode style-1 big">
-                            <div class="preview">
-                                <img src="img/F1.jpg" alt="">
-                                <div class="preview-buttons valign-middle">
-                                    <div class="valign-middle-content">
-                                        <a class="button size-2 style-2" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                <span class="text">Learn More</span>
-                                            </span>
-                                        </a>
-                                        <a class="button size-2 style-3" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
-                                                <span class="text">Add To Cart</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Fujifilm Instax Mini Instant TSUM TSUM</a></div>
-                            </div>
-                            <div class="description">
-                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
-                                <div class="icons">
-                                    <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
-                                    <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                
-                                <div class="simple-article size-4"><span class="color" >฿3,590</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="product-shortcode style-1 big">
-                            <div class="preview">
-                                <img src="img/S1.jpg" alt="">
-                                <div class="preview-buttons valign-middle">
-                                    <div class="valign-middle-content">
-                                        <a class="button size-2 style-2" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                <span class="text">Learn More</span>
-                                            </span>
-                                        </a>
-                                        <a class="button size-2 style-3" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
-                                                <span class="text">Add To Cart</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Sony Alpha a6300 Kit 16-50mm</a></div>
-                            </div>
-                            <div class="description">
-                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
-                                <div class="icons">
-                                    <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
-                                    <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                
-                                <div class="simple-article size-4"><span class="color">฿31,990</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="product-shortcode style-1 big">
-                            <div class="preview">
-                                <img src="img/Pana1.jpg" alt="">
-                                <div class="preview-buttons valign-middle">
-                                    <div class="valign-middle-content">
-                                        <a class="button size-2 style-2" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                <span class="text">Learn More</span>
-                                            </span>
-                                        </a>
-                                        <a class="button size-2 style-3" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
-                                                <span class="text">Add To Cart</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Panasonic Lumix DMC-GF10 Kit 12-32 mm</a></div>
-                            </div>
-                            <div class="description">
-                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
-                                <div class="icons">
-                                    <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
-                                    <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                
-                                <div class="simple-article size-4"><span class="color">฿18,991</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="product-shortcode style-1 big">
-                            <div class="preview">
-                                <img src="img/Ca2.jpg" alt="">
-                                <div class="preview-buttons valign-middle">
-                                    <div class="valign-middle-content">
-                                        <a class="button size-2 style-2" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                <span class="text">Learn More</span>
-                                            </span>
-                                        </a>
-                                        <a class="button size-2 style-3" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
-                                                <span class="text">Add To Cart</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Canon EOS M5 KIT 15-45</a></div>
-                            </div>
-                            <div class="description">
-                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
-                                <div class="icons">
-                                    <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
-                                    <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                            
-                                <div class="simple-article size-4"><span class="color">฿40,990</span></span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="product-shortcode style-1 big">
-                            <div class="preview">
-                                <img src="img/Ca3.jpg" alt="">
-                                <div class="preview-buttons valign-middle">
-                                    <div class="valign-middle-content">
-                                        <a class="button size-2 style-2" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                <span class="text">Learn More</span>
-                                            </span>
-                                        </a>
-                                        <a class="button size-2 style-3" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
-                                                <span class="text">Add To Cart</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Canon EOS 77D 18-55mm</a></div>
-                            </div>
-                            <div class="description">
-                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
-                                <div class="icons">
-                                    <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
-                                    <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                
-                                <div class="simple-article size-4"><span class="color">฿37,900</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="product-shortcode style-1 big">
-                            <div class="preview">
-                                <img src="img/F2.jpg" alt="">
-                                <div class="preview-buttons valign-middle">
-                                    <div class="valign-middle-content">
-                                        <a class="button size-2 style-2" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-1.png" alt=""></span>
-                                                <span class="text">Learn More</span>
-                                            </span>
-                                        </a>
-                                        <a class="button size-2 style-3" href="#">
-                                            <span class="button-wrapper">
-                                                <span class="icon"><img src="img/icon-3.png" alt=""></span>
-                                                <span class="text">Add To Cart</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="title">
-                                <div class="simple-article size-1 color col-xs-b5"><a href="#"></a></div>
-                                <div class="h6 animate-to-green"><a href="#">Fujifilm X-A7 Kit 15-45mm</a></div>
-                            </div>
-                            <div class="description">
-                                <div class="simple-article text size-2">รายละเอียด เพิ่มเติม</div>
-                                <div class="icons">
-                                    <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
-                                    <a class="entry open-popup" data-rel="3"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                               
-                                <div class="simple-article size-4"><span class="color">฿24,990</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination relative-pagination visible-xs visible-sm"></div>
-            </div> 
-        </div>
 
         <!-- <div class="empty-space col-xs-b35 col-md-b70"></div>
         <div class="empty-space col-xs-b35 col-md-b70"></div> -->
