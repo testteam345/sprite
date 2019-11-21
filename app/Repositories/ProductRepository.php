@@ -144,22 +144,22 @@ class ProductRepository
         ->where('tbl_cart.status',1)
         ->where('tbl_cart.user_id',Session::get('user_id'))
         ->where('tbl_cart.pro_id',$pro_id)
-        ->get();//หาสินค้าที่มียุในตะกร้า
+        ->get();    //เช็คสินค้า
         $qty = isset($input_data['qty'])&&$input_data['qty']!=''?$input_data['qty']:1;
-        if(count($num)>0){//เช็คว่าสินค้า
+        if(count($num)>0){
             $obj_update = array(
-                'cart_qty' => $num[0]->cart_qty+$qty, // +เพิ่มขึ้น1
+                'cart_qty' => $num[0]->cart_qty+$qty, //เพิ่มขึ้นอีก1ชิ้น
             );
-           return $this->Cart_model->where('cart_id',$num[0]->cart_id)->update($obj_update); //ส่งกลับ คอนโทรลเลอร์
+           return $this->Cart_model->where('cart_id',$num[0]->cart_id)->update($obj_update); //ส่งกลับคอนโทเลอร์
         }else{
             $obj_insert = array(
                 'pro_id'=>$pro_id,
                 'user_id'=>Session::get('user_id'),
                 'status'=>1,
                 'type'=>1,
-                'cart_qty'=>$qty
+                'cart_qty'=>$qty   
             );
-            return $this->Cart_model->insert($obj_insert); // ถ้ามีอยู่แล้วจะ+1 ถ้าไม่มีจะอินเสริตของ
+            return $this->Cart_model->insert($obj_insert); //ถ้าไม่มีสินค้าจะอินเสริตสินค้าเพิ่มอีก
         }
     }
 
@@ -220,7 +220,7 @@ class ProductRepository
         $id = $this->Checkout_Model->insertGetId($ch_data1);
         foreach($data as $index => $row){
             $ch_data[$index]['pro_id'] = $row->pro_id;
-            $c1h_data[$index]['ch_id'] = $id;
+            $ch_data[$index]['ch_id'] = $id;
             $ch_data[$index]['qty'] = $row->cart_qty;
         }
         $this->Cart_model->where('user_id',Session::get('user_id'))->delete();
