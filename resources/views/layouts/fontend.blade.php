@@ -284,11 +284,10 @@
                             <div class="footer-column-links">
                                 <div class="row">
                                     <div class="col-xs-6">
-                                        <a href="#">home</a>
-                                        <a href="#">about us</a>
-                                        <a href="#">products</a>
-                                   
-                                        <a href="#">contact</a>
+                                     <a href="{{url('/')}}">Home</a>
+                                     <a href="{{route('about_us_pae')}}">about us</a>
+                                     <a href="{{route('pro_all')}}">products</a>
+                                     <li><a href="{{route('contacts_sprite')}}">contact</a></li>
                                     </div>
                                     <div class="col-xs-6">
                                        
