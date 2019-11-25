@@ -300,7 +300,7 @@
                         <div class="clear visible-sm"></div>
 
                         <div class="follow">
-                            <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="entry" href="https://www.facebook.com/profile.php?id=100005716475777"><i class="fa fa-facebook"></i></a>
                             <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
                             <a class="entry" href="#"><i class="fa fa-linkedin"></i></a>
                             <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>

@@ -27,7 +27,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-slide-active" style="width: 360px; margin-right: 30px;">
                     <div class="icon-description-shortcode style-2">
-                        <img class="image-icon image-thumbnail rounded-image" src="img/oat.jpg" alt="">
+                        <img class="image-icon image-thumbnail rounded-image" src="img/Nut.jpg" alt="">
                         <div class="content">
                             <h3 class="title h3">นายสิทธิโชค ชุ่มใจ</h3>
                             <div class="description simple-article size-3"><b> เลขที 41 ปวส.2/3 สาขาวิชา คอมพิวเตอร์ธุรกิจ วิทยาลัยเทคโนโลยีอรรถวิทย์พณิชยการ</b></div>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="swiper-slide swiper-slide-next" style="width: 360px; margin-right: 30px;">
                     <div class="icon-description-shortcode style-2">
-                        <img class="image-icon image-thumbnail rounded-image" src="img/sprite.jpg" alt="">
+                        <img class="image-icon image-thumbnail rounded-image" src="img/Nut.jpg" alt="">
                         <div class="content">
                             <h3 class="title h3">นายฐิติวัฒน์ คงมีสิทธิ์</h3>
                             <div class="description simple-article size-3"><b> เลขที 37 ปวส.2/3 สาขาวิชา คอมพิวเตอร์ธุรกิจ วิทยาลัยเทคโนโลยีอรรถวิทย์พณิชยการ</b></div>

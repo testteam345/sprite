@@ -24,7 +24,7 @@
                            <tr>
                             <td><img src="{{ env('APP_ASSET') }}img/blank_1.jpg" style="width: 80%" alt=""></td>
                             <td class="cart-product-price" style="vertical-align: middle;"><h1>1234567890</h1></td>
-                            <td  style="vertical-align: middle;"><h4>Codeing Complate</h4></td>
+                            <td  style="vertical-align: middle;"><h4>OP camera</h4></td>
                            </tr>
                         </tbody>
                     </table>
