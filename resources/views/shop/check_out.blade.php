@@ -75,13 +75,22 @@
                                     </div>
                                 </td>
                             </tr>
+                            <tr class="cart-product">
+                                <th class="cart-product-item" width="30%">Address</th>
+                                <td class="cart-product-price" style="vertical-align: middle;"><h1>{{ Session::get('address') }}</h1></td>
+                             
+                            </tr>
+                            
                         </tfoot>
+                        
                     </table>
+                   
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 @endsection
 
