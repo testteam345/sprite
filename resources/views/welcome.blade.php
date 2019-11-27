@@ -32,27 +32,27 @@
                         <div class="empty-space col-xs-b80 col-sm-b0"></div>
                     </div>
                </div>
-               <div class="swiper-slide" style="background-image: url(img/background-1.jpg);">
+               <div class="swiper-slide" style="background-image: url(img/background-111.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="cell-view page-height">
                                 <div class="col-xs-b40 col-sm-b80"></div>
                                 <div data-swiper-parallax-x="-600">
-                                    <div class="simple-article light transparent size-3">PROFESSIONAL EDITION</div>
+                                    <div class="simple-article light transparent size-3"></div>
                                     <div class="col-xs-b5"></div>
                                 </div>
                                 <div data-swiper-parallax-x="-500">
-                                    <h1 class="h1 light">CANON EOS 6D</h1>
+                                    <h1 class="h1 light">OP Camera shop</h1>
                                     <div class="title-underline light left"><span></span></div>
                                 </div>
                                 <div data-swiper-parallax-x="-400">
                                     <div class="simple-article size-4 light transparent">
-                                        <p>EOS 6D Mark II กล้อง DSLR แบบฟูลเฟรมในตระกูล EOS ที่มีน้ำหนักเบาที่สุด ครบครันด้วยสุดยอดฟังก์ชั่น พร้อมบอดี้ขนาดกะทะรัดน้ำหนักเบา ที่จะช่วยยกระดับภาพถ่ายของคุณไปอีกขั้น ด้วยเซ็นเซอร์ภาพความละเอียด 26.2 ล้านพิกเซล เทคโนโลยีออโต้โฟกัส Dual Pixel CMOS AF และหน้าจอแอลซีดีทัชสกรีนปรับได้หลายทิศทาง ช่วยให้ได้ภาพสวยน่าประทับใจทั้งภาพนิ่งและวิดีโอ </p>
+                                        <p> <h2>บริษัทจำหน่ายกล้องถ่ายรูปมือหนึ่ง </h2></p>
                                         <ul>
-                                            <li>เซ็นเซอร์ภาพ CMOS แบบฟูลเฟรม ความละเอียด 26.2 ล้านพิกเซล</li>
-                                            <li>เทคโนโลยี Dual Pixel CMOS AF</li>
-                                            <li>ความไวแสง ISO 100 – 40000 (ขยายได้ถึง 102400)</li>
+                                            <li>สินค้าแท้จากแบรนด์ดัง</li>
+                                            <li>อันดับ1ในไทย</li>
+                                            <li>คุณภาพระดับโลก</li>
                                         </ul>
                                     </div>
                                     <div class="col-xs-b30"></div>

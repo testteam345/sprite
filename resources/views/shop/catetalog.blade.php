@@ -87,7 +87,7 @@
                                                 <span class="button-wrapper">
                                                     <span class="icon"><img src="{{ env('APP_ASSET') }}img/icon-1.png"
                                                             alt=""></span>
-                                                    <span class="text">Learn More</span>
+                                                    
                                                 </span>
                                             </a>
                                             
@@ -113,10 +113,10 @@
                                 <div class="description">
                                     <div class="simple-article text size-2">{{$product->pro_sub_detail}}</div>
                                     <div class="icons">
-                                        <a class="entry"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                        
                                         <a class="entry open-popup" data-rel="{{$product->pro_id}}"><i class="fa fa-eye"
                                                 aria-hidden="true"></i></a>
-                                        <a class="entry"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                       
                                     </div>
                                 </div>
                             </div>
