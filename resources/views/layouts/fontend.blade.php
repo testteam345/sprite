@@ -321,7 +321,7 @@
                                                     <h3 class="h3 text-center">Log in</h3>
                                                     <div class="empty-space col-xs-b30"></div>
                                                     <input class="simple-input" type="text" id="username"
-                                                        name="username" value="" placeholder="Your username" />
+                                                        name="username" value="" placeholder="Username" />
                                                     <div class="empty-space col-xs-b10 col-sm-b20"></div>
                                                     <input class="simple-input" type="password" id="pwd" value=""
                                                         name="pwd" placeholder="Enter password" />
@@ -355,7 +355,7 @@
                                                     <h3 class="h3 text-center">register</h3>
                                                     <div class="empty-space col-xs-b30"></div>
                                                     <input class="simple-input" type="text" id="re_pwd" name="re_pwd"
-                                                        value="" placeholder="Your name" />
+                                                        value="" placeholder="Username" />
                                                     <div class="empty-space col-xs-b30"></div>
                                                     <input class="simple-input" type="text" id="re_username"
                                                         name="re_username" value="" placeholder="Your fullname" />
